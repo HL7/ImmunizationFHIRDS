@@ -1,0 +1,193 @@
+﻿<html>
+<head>
+  <title>ImplementationGuide-ig-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide">ImplementationGuide</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;ig&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.text">text</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Implementation Guide Template&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;http://www.fhir.org/guides/ig-template/ImplementationGuide/ig&lt;/pre&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.url">url</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://www.fhir.org/guides/ig-template/ImplementationGuide/ig&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Implementation Guide Template&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.experimental">experimental</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;FHIR Project&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;base&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;OperationDefinition-cdsi-forecast-operation.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;OperationDefinition/cdsi-forecast-operation&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR Patient Profile&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;StructureDefinition-cdsi-patient.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR Patient Profile&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition/cdsi-patient&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR ImmunizationRecommendation Profile&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-forecastStatus-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Forecast Status codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/forecastStatus-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-forecastStatus-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Forecast Status codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/forecastStatus-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-forecastStatusReason-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Forecast Status Reason codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/forecastStatusReason-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-forecastStatusReason-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Forecast Status Reason codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/forecastStatusReason-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-immRecDateCriterion-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Immunization Recommendation Date Criterion Codes &quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/immRecDateCriterion-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;StructureDefinition-template-forecastStatusReason.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Example Extension&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition/template-forecastStatusReason&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>
+                  <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;StructureDefinition-cdsi-immunizationrecommendation.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR ImmunizationRecommendation Profile&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition/cdsi-immunizationrecommendation&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR Immunization Profile&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-dostStatus-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vaccination Protocol Dose Status codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/doseStatus-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-doseStatus-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vaccination Protocol Dose Status codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/doseStatus-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-dostStatusReason-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vaccination Protocol Dose Status Reason codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/doseStatusReason-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-doseStatusReason-codes.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vaccination Protocol Dose Status Reason codes&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/doseStatusReason-codes&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;StructureDefinition-cdsi-immunization.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDS on FHIR Immunization Profile&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition/cdsi-immunization&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page">page</a>&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;cdsi-operation.html&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CDSi Operation&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.kind">kind</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;page&quot;/&gt;
+  &lt;/page&gt;
+&lt;/ImplementationGuide&gt;</pre>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "forecastStatusReason-codes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Forecast Status Reason codes</h2><div><p>a bunch of example codes</p>\n</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>valid<a name=\"forecastStatusReason-codes-valid\"> </a></td><td>Valid</td><td>Dose is Valid</td></tr><tr><td>not valid<a name=\"forecastStatusReason-codes-notvalid\"> </a></td><td>Not Valid</td><td>Dose is Not Valid</td></tr><tr><td>extraneous<a name=\"forecastStatusReason-codes-extraneous\"> </a></td><td>Extraneous</td><td>Dose is Extraneous</td></tr><tr><td>substandard<a name=\"forecastStatusReason-codes-substandard\"> </a></td><td>Substandard</td><td>Dose is Substandard</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes"];
+  fhir:CodeSystem.name [ fhir:value "Forecast Status Reason codes"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2017-05-25T15:05:26-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "a bunch of example codes"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [ fhir:value "http://www.fhir.org/guides/ig-template/ValueSet/forecastStatusReason-codes"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "valid" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Valid" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Dose is Valid" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "not valid" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Not Valid" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Dose is Not Valid" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "extraneous" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Extraneous" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Dose is Extraneous" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "substandard" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Substandard" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Dose is Substandard" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

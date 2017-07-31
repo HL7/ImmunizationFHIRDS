@@ -1,0 +1,31 @@
+{
+	"tool": "jekyll",
+	"paths": {
+		"resources": "resources",
+		"pages": "pages",
+		"temp": "temp",
+		"output": "output",
+		"qa": "qa",
+		"txCache": "txCache",
+                "specification": "http://build.fhir.org"
+	},
+	"defaults": {
+		"Any": {
+			"template-format": "instance-template-format.html",
+			"template-base": "instance-template-base.html"
+		},
+		"StructureDefinition" : {
+			"template-base" : "instance-template-sd.html"
+		}
+	},
+	"sct-edition" : "http://snomed.info/sct/731000124108",
+	"canonicalBase": "http://www.nist.gov",
+	"source": "cdsi.xml",
+	"spreadsheets" : [
+		"cdsi-immunization-profile-spreadsheet.xml",
+		"cdsi-immunizationrecommendation-profile-spreadsheet.xml",
+		"cdsi-patient-profile-spreadsheet.xml"
+	],
+	"resources": {
+	}
+}

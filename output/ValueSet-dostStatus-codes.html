@@ -1,0 +1,167 @@
+﻿<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>Implementation Guide Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Implementation Guide Template Implemenation Guide"/>
+<meta name="author" content="http://argonautwiki.hl7.org"/>
+
+  <link rel="stylesheet" href="fhir.css"/>
+
+     <!-- Bootstrap core CSS -->
+
+     <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+  <link rel="stylesheet" href="assets/css/project.css"/>
+  <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+	<link rel="stylesheet" href="jquery-ui.css"/>
+
+    <!-- Favicons -->
+  <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+
+
+<body markdown="1">
+
+
+
+ <div id="segment-header" class="segment">    <!-- segment-header -->
+  <div class="container">    <!-- container -->
+   <a no-external="true" id="logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
+   <div id="hl7-nav">
+     <a no-external="true" id="hl7-logo" href="http://www.hl7.org">
+     <img src="assets/images/hl7-logo.png" alt="visit the hl7 website" width="42" height="50"/>
+    </a>
+   </div>
+
+   <div id="ig-status">
+ <b>Implementation Guide Template CDS-Immunization Forecast Implementation Guide - STU 1 Ballot</b>
+</div>
+
+  </div>
+  <div class="container">    <!-- container -->
+ </div></div>    <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">    <!-- container -->
+     <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+     <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a href="http://build.fhir.orgindex.html" class="navbar-brand hidden">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cdsi-operation.html">CDS-Immunization Operation</a></li>
+        <li><a href="cdsi-profiles.html">CDS-Immunization Profiles</a></li>n
+            </ul>
+
+     </div>    <!-- /.nav-collapse -->
+    </div>    <!-- /.container -->
+   </nav>    <!-- /.navbar -->
+
+    <!-- /HEADER CONTENT -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-navbar -->
+
+
+  <!-- segment-breadcrumb -->
+
+    <!-- /container -->
+    <!-- /segment-breadcrumb -->
+
+<div id="segment-content" class="segment">    <!-- segment-content -->
+<div class="container">    <!-- container -->
+<div class="row">
+<div class="inner-wrapper">
+
+
+<div class="col-12">
+
+
+    <!-- ============CONTENT CONTENT=============== -->
+
+
+
+<table class="grid">
+ <tbody><tr><td>Defining URL:</td><td>http://www.fhir.org/guides/ig-template/ValueSet/doseStatus-codes</td></tr>
+ <tr><td>Name:</td><td>Vaccination Protocol Dose Status codes</td></tr>
+ <tr><td>Definition:</td><td><p>A bunch of example codes</p>
+</td></tr>
+ <tr><td>Source Resource</td><td><a href="ValueSet-doseStatus-codes.xml.html">XML</a> / <a href="ValueSet-doseStatus-codes.json.html">JSON</a> / <a href="ValueSet-doseStatus-codes.ttl.html">Turtle</a></td></tr>
+</tbody></table>
+
+
+<p>This value set is not used</p>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><h2>Vaccination Protocol Dose Status codes</h2><div><p>A bunch of example codes</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li><a name="a007be3f-959b-4d31-a664-5ddf47f515de"> </a>Include all codes defined in <a href="CodeSystem/doseStatus-codes.html"><code>http://www.fhir.org/guides/ig-template/CodeSystem/doseStatus-codes</code></a></li></ul></div>
+
+<h3>Expansion</h3>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 4 concepts</p><p><a name="ea01a894-5678-4275-863d-702e6032fd9c"> </a>All codes from system <a href="CodeSystem/doseStatus-codes.html"><code>http://www.fhir.org/guides/ig-template/CodeSystem/doseStatus-codes</code></a></p><table class="codes"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="83312c56-9798-4115-8780-8f3832d15690"> </a><a name="http---www.fhir.org-guides-ig-template-CodeSystem-doseStatus-codes-valid"> </a><a href="CodeSystem/doseStatus-codes.html#doseStatus-codes-valid">valid</a></td><td>Valid</td><td>Dose is Valid</td></tr><tr><td><a name="846275c2-3301-44af-a4ef-19b67ea981b4"> </a><a name="http---www.fhir.org-guides-ig-template-CodeSystem-doseStatus-codes-not-valid"> </a><a href="CodeSystem/doseStatus-codes.html#doseStatus-codes-notvalid">not valid</a></td><td>Not Valid</td><td>Dose is Not Valid</td></tr><tr><td><a name="d9785601-09c6-4c68-aa36-8e910197275d"> </a><a name="http---www.fhir.org-guides-ig-template-CodeSystem-doseStatus-codes-extraneous"> </a><a href="CodeSystem/doseStatus-codes.html#doseStatus-codes-extraneous">extraneous</a></td><td>Extraneous</td><td>Dose is Extraneous</td></tr><tr><td><a name="61e5b9ff-b08d-4ad0-a9d9-c05086ea9792"> </a><a name="http---www.fhir.org-guides-ig-template-CodeSystem-doseStatus-codes-substandard"> </a><a href="CodeSystem/doseStatus-codes.html#doseStatus-codes-substandard">substandard</a></td><td>Substandard</td><td>Dose is Substandard</td></tr></table></div>
+
+    <!-- ==============END CONTENT END CONTENT=================== -->
+
+</div>
+
+
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+
+</div>    <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">    <!-- segment-footer -->
+  <div class="container">    <!-- container -->
+   <div class="inner-wrapper">
+    <p>
+        &copy; PHER 2017+;
+        &copy; HL7.org 2011+. FHIR Release 3 (STU; v3.0.1-11917) generated on Wed, Apr 19, 2017 07:49+1000.
+        <span style="color: #FFFF77">
+        Links: <a style="color: #81BEF7" href="http://hl7.org/fhir/search.cfm">Search <img src="external.png" style="text-align: baseline"/></a> |
+        </span>
+        </p>
+   </div>    <!-- /inner-wrapper -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-footer -->
+    <!-- disqus thread -->
+    <!-- disqus -->
+    <!-- end disqus -->
+
+ <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+  <div class="container">    <!-- container -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-post-footer -->
+
+        <!-- JS and analytics only. -->
+        <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="dist/js/bootstrap.min.js"> </script>
+<script src="assets/js/respond.min.js"> </script>
+
+<script src="assets/js/fhir.js"> </script>
+
+    <!-- Analytics Below
+================================================== -->
+
+</body></head></html>

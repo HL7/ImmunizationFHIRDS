@@ -1,0 +1,242 @@
+---
+category: home
+---
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CDS-Immunization Forecast Operation Definition</title>
+  {% include header.html %}
+</head>
+<body>
+{% include navbar.html %}
+
+  <div id="segment-content" class="segment">  <!-- segment-content -->
+    <div class="container">  <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+          <!-- CONTENT CONTENT -->
+
+<div class="col-9">
+
+<h1>CDS-Immunization Forecast Operation Definition</h1>
+
+<p>
+Documentation: <a href="cdsi-operation.html">Operation Definition</a>&nbsp;&nbsp;Formats: <a href="cdsi-operation-xml.html">XML</a>, <a href="cdsi-operation-json.html">JSON</a>, <a href="cdsi-operation-ttl.html">Turtle</a>
+</p>
+
+{% include OperationDefinition-cdsi-forecast-operation-html.xhtml %}
+
+<!--
+  <h2 id="usage">Usage</h2>
+  <p>
+    This section contains usage examples for the CDSi Forecast operation.
+  </p>
+  <h3>Default assessmentDate and no immunizations (Request)</h3>
+  <p>Execute the 'cdsi-forecast' operation where the assessmentDate and immunization parameters are empty (not present). The CDS server will default the assessmentDate to the current date.</p>
+  <pre class="json">
+POST [base]/Patient/$cdsi-forecast
+[some headers]
+
+{
+  &quot;resourceType&quot;: &quot;Parameters&quot;,
+  &quot;parameter&quot;: [
+    {
+      &quot;name&quot;: &quot;gender&quot;,
+      &quot;valueCode&quot;: &quot;female&quot;
+    },
+    {
+      &quot;name&quot;: &quot;birthDate&quot;,
+      &quot;valueDate&quot;: &quot;2016-11-01&quot;
+    }
+  ]
+}
+  </pre>
+
+  <h3>Specific assessmentDate and no immunizations (Request)</h3>
+  <p>Execute the 'cdsi-forecast' operation where the assessmentDate is specified and the immunization parameter is empty (not present).</p>
+  <pre class="json">
+POST [base]/Patient/$cdsi-forecast
+[some headers]
+
+{
+  &quot;resourceType&quot;: &quot;Parameters&quot;,
+  &quot;parameter&quot;: [
+    {
+      &quot;name&quot;: &quot;assessmentDate&quot;,
+      &quot;valueDate&quot;: &quot;2016-11-01&quot;
+    },
+    {
+      &quot;name&quot;: &quot;gender&quot;,
+      &quot;valueCode&quot;: &quot;female&quot;
+    },
+    {
+      &quot;name&quot;: &quot;birthDate&quot;,
+      &quot;valueDate&quot;: &quot;2016-11-01&quot;
+    }
+  ]
+}
+  </pre>
+
+  <h3>Specific assessmentDate and one immunization (Request)</h3>
+  <p>Execute the 'cdsi-forecast' operation where the assessmentDate is specified and one immunization parameter is present.</p>
+  <pre class="json">
+POST [base]/Patient/$cdsi-forecast
+[some headers]
+
+{
+  &quot;resourceType&quot;: &quot;Parameters&quot;,
+  &quot;parameter&quot;: [
+    {
+      &quot;name&quot;: &quot;assessmentDate&quot;,
+      &quot;valueDate&quot;: &quot;2016-11-01&quot;
+    },
+    {
+      &quot;name&quot;: &quot;gender&quot;,
+      &quot;valueCode&quot;: &quot;female&quot;
+    },
+    {
+      &quot;name&quot;: &quot;birthDate&quot;,
+      &quot;valueDate&quot;: &quot;2016-11-01&quot;
+    },
+    {
+      &quot;name&quot;:&quot;immunization&quot;,
+      &quot;resource&quot;:{
+        &quot;resourceType&quot;:&quot;Immunization&quot;,
+        ...
+      }
+    }
+  ]
+}
+  </pre>
+
+  <h3>CDSi Forecast Returned Parameters (Response)</h3>
+  <p>Forecast results with example ImmunizationRecommendation.</p>
+  <pre class="json">
+HTTP/1.1 200 OK
+[some headers]
+
+{
+  &quot;resourceType&quot;:&quot;Parameters&quot;,
+  &quot;parameter&quot;:[
+    {
+      &quot;name&quot;:&quot;summary&quot;,
+      &quot;valueString&quot;:&quot;Summary String Here&quot;
+    },
+    {
+      &quot;name&quot;:&quot;recommendation&quot;,
+      &quot;resource&quot;:{
+        &quot;resourceType&quot;:&quot;ImmunizationRecommendation&quot;,
+        &quot;id&quot;:&quot;79f25c95-58c4-4b73-ac21-11661cded6ce&quot;,
+        &quot;meta&quot;:{
+          &quot;versionId&quot;:&quot;1&quot;,
+          &quot;lastUpdated&quot;:&quot;2016-11-17T21:18:59.601-05:00&quot;
+        },
+        &quot;text&quot;:{
+          &quot;status&quot;:&quot;generated&quot;,
+          &quot;div&quot;:&quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Summary String Here&lt;/div&gt;&quot;
+        },
+        &quot;contained&quot;:[
+          {
+            &quot;resourceType&quot;:&quot;Patient&quot;,
+            &quot;id&quot;:&quot;patient-forecast-data&quot;,
+            &quot;gender&quot;:&quot;female&quot;,
+            &quot;birthDate&quot;:&quot;2016-11-01&quot;
+          }
+        ],
+        &quot;patient&quot;:{
+          &quot;reference&quot;:&quot;#patient-forecast-data&quot;
+        },
+        &quot;recommendation&quot;:[
+          {
+            &quot;date&quot;:&quot;2016-11-17T21:18:59-05:00&quot;,
+            &quot;vaccineCode&quot;:{
+              &quot;coding&quot;:[
+                {
+                  &quot;system&quot;:&quot;http://example.org/cdc/cvx/vaccine-code&quot;,
+                  &quot;code&quot;:&quot;45&quot;,
+                  &quot;display&quot;:&quot;HepB&quot;
+                }
+              ]
+            },
+            &quot;doseNumber&quot;:1,
+            &quot;forecastStatus&quot;:{
+              &quot;coding&quot;:[
+                {
+                  &quot;system&quot;:&quot;http://hl7.org/fhir/immunization-recommendation-status&quot;,
+                  &quot;code&quot;:&quot;due&quot;,
+                  &quot;display&quot;:&quot;due&quot;
+                }
+              ]
+            },
+            &quot;dateCriterion&quot;:[
+              {
+                &quot;code&quot;:{
+                  &quot;coding&quot;:[
+                    {
+                      &quot;system&quot;:&quot;http://hl7.org/fhir/immunization-recommendation-date-criterion&quot;,
+                      &quot;code&quot;:&quot;due&quot;,
+                      &quot;display&quot;:&quot;due&quot;
+                    }
+                  ]
+                },
+                &quot;value&quot;:&quot;2016-11-01T00:00:00-04:00&quot;
+              },
+              {
+                &quot;code&quot;:{
+                  &quot;coding&quot;:[
+                    {
+                      &quot;system&quot;:&quot;http://hl7.org/fhir/immunization-recommendation-date-criterion&quot;,
+                      &quot;code&quot;:&quot;overdue&quot;,
+                      &quot;display&quot;:&quot;overdue&quot;
+                    }
+                  ]
+                },
+                &quot;value&quot;:&quot;2016-11-29T00:00:00-05:00&quot;
+              },
+              {
+                &quot;code&quot;:{
+                  &quot;coding&quot;:[
+                    {
+                      &quot;system&quot;:&quot;http://hl7.org/fhir/immunization-recommendation-date-criterion&quot;,
+                      &quot;code&quot;:&quot;latest&quot;,
+                      &quot;display&quot;:&quot;latest&quot;
+                    }
+                  ]
+                },
+                &quot;value&quot;:&quot;2216-11-01T00:00:00-04:00&quot;
+              },
+              {
+                &quot;code&quot;:{
+                  &quot;coding&quot;:[
+                    {
+                      &quot;system&quot;:&quot;http://example.org/fhir/immunization-recommendation-date-criterion-extended&quot;,
+                      &quot;code&quot;:&quot;valid&quot;,
+                      &quot;display&quot;:&quot;valid&quot;
+                    }
+                  ]
+                },
+                &quot;value&quot;:&quot;2016-11-01T00:00:00-04:00&quot;
+              }
+            ]
+          },
+          ...
+        ]
+      }
+    }
+  ]
+}
+
+  </pre>
+-->
+
+</div>
+
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+
+  </div>  <!-- /segment-content -->
+
+{% include footer.html %}
+</body>
+</html>

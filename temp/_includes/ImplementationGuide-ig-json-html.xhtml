@@ -1,0 +1,222 @@
+<pre class="json">
+{
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide">resourceType</a>" : "ImplementationGuide",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.id">id</a>" : "ig",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.text">text</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Implementation Guide Template&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;http://www.fhir.org/guides/ig-template/ImplementationGuide/ig&lt;/pre&gt;&lt;/div&gt;"
+  },
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.url">url</a>" : "http://www.fhir.org/guides/ig-template/ImplementationGuide/ig",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.name">name</a>" : "Implementation Guide Template",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.status">status</a>" : "draft",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.experimental">experimental</a>" : true,
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.publisher">publisher</a>" : "FHIR Project",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>" : [
+    {
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a>" : "base",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "OperationDefinition-cdsi-forecast-operation.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "OperationDefinition/cdsi-forecast-operation"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a>" : "CDS on FHIR Patient Profile",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-cdsi-patient.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "CDS on FHIR Patient Profile",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/cdsi-patient"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a>" : "CDS on FHIR ImmunizationRecommendation Profile",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-forecastStatus-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Forecast Status codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/forecastStatus-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-forecastStatus-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Forecast Status codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/forecastStatus-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-forecastStatusReason-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Forecast Status Reason codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/forecastStatusReason-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-forecastStatusReason-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Forecast Status Reason codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/forecastStatusReason-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-immRecDateCriterion-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Immunization Recommendation Date Criterion Codes ",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/immRecDateCriterion-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-template-forecastStatusReason.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Example Extension",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/template-forecastStatusReason"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-cdsi-immunizationrecommendation.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "CDS on FHIR ImmunizationRecommendation Profile",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/cdsi-immunizationrecommendation"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a>" : "CDS on FHIR Immunization Profile",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-dostStatus-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Vaccination Protocol Dose Status codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/doseStatus-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-doseStatus-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Vaccination Protocol Dose Status codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/doseStatus-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-dostStatusReason-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Vaccination Protocol Dose Status Reason codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/doseStatusReason-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-doseStatusReason-codes.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "Vaccination Protocol Dose Status Reason codes",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/doseStatusReason-codes"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-cdsi-immunization.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "CDS on FHIR Immunization Profile",
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/cdsi-immunization"
+          }
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page">page</a>" : {
+    "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.source">source</a>" : "cdsi-operation.html",
+    "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.title">title</a>" : "CDSi Operation",
+    "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.page.kind">kind</a>" : "page"
+  }
+}</pre>

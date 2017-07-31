@@ -1,0 +1,25 @@
+﻿{
+  "path": "http://build.fhir.org",
+  "canonical": "http://www.fhir.org/guides/ig-template",
+  "igId": "ig",
+  "igName": "Implementation Guide Template",
+  "errorCount": 18,
+  "version": "3.1.0",
+  "revision": "11974",
+  "versionFull": "3.1.0-11974",
+  "toolingVersion": "3.1.0",
+  "toolingRevision": "11939",
+  "toolingVersionFull": "3.1.0-11939",
+  "totalFiles": 5,
+  "processedFiles": 187,
+  "genDate": "Thu, May 25, 2017 15:05-0400",
+  "ig": {
+    "id": "ig",
+    "name": "Implementation Guide Template",
+    "url": "http://www.fhir.org/guides/ig-template/ImplementationGuide/ig",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "FHIR Project"
+  },
+  "uscore": "http://hl7.org/fhir/us/core/"
+}

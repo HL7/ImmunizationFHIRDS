@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="forecastStatus-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Forecast Status codes</h2><div><p>a bunch of example codes</p>
+</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes defines the following codes:</p><table class="codes"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>A<a name="forecastStatus-codes-A"> </a></td><td>A</td><td>assumed complete or immune</td></tr><tr><td>C<a name="forecastStatus-codes-C"> </a></td><td>C</td><td>complete</td></tr><tr><td>D<a name="forecastStatus-codes-D"> </a></td><td>D</td><td>due</td></tr><tr><td>E<a name="forecastStatus-codes-E"> </a></td><td>E</td><td>error</td></tr><tr><td>F<a name="forecastStatus-codes-F"> </a></td><td>F</td><td>finished</td></tr><tr><td>G<a name="forecastStatus-codes-G"> </a></td><td>G</td><td>aged out</td></tr><tr><td>I<a name="forecastStatus-codes-I"> </a></td><td>I</td><td>immune</td></tr><tr><td>L<a name="forecastStatus-codes-L"> </a></td><td>L</td><td>due later</td></tr><tr><td>N<a name="forecastStatus-codes-N"> </a></td><td>N</td><td>not complete</td></tr><tr><td>O<a name="forecastStatus-codes-O"> </a></td><td>O</td><td>overdue</td></tr><tr><td>R<a name="forecastStatus-codes-R"> </a></td><td>R</td><td>no results</td></tr><tr><td>S<a name="forecastStatus-codes-S"> </a></td><td>S</td><td>complete for season</td></tr><tr><td>U<a name="forecastStatus-codes-U"> </a></td><td>U</td><td>unknown</td></tr><tr><td>V<a name="forecastStatus-codes-V"> </a></td><td>V</td><td>Consider</td></tr><tr><td>W<a name="forecastStatus-codes-W"> </a></td><td>W</td><td>waivered</td></tr><tr><td>X<a name="forecastStatus-codes-X"> </a></td><td>X</td><td>contraindicated</td></tr><tr><td>Z<a name="forecastStatus-codes-Z"> </a></td><td>Z</td><td>recommended but not required</td></tr></table></div>
+  </text>
+  <url value="http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes"/>
+  <name value="Forecast Status codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2017-05-25T15:05:26-04:00"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+    </telecom>
+  </contact>
+  <description value="a bunch of example codes"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://www.fhir.org/guides/ig-template/ValueSet/forecastStatus-codes"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A"/>
+    <display value="A"/>
+    <definition value="assumed complete or immune"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="C"/>
+    <definition value="complete"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="D"/>
+    <definition value="due"/>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="E"/>
+    <definition value="error"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="F"/>
+    <definition value="finished"/>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="G"/>
+    <definition value="aged out"/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="I"/>
+    <definition value="immune"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="L"/>
+    <definition value="due later"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="N"/>
+    <definition value="not complete"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="O"/>
+    <definition value="overdue"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="R"/>
+    <definition value="no results"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="S"/>
+    <definition value="complete for season"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="U"/>
+    <definition value="unknown"/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="V"/>
+    <definition value="Consider"/>
+  </concept>
+  <concept>
+    <code value="W"/>
+    <display value="W"/>
+    <definition value="waivered"/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="X"/>
+    <definition value="contraindicated"/>
+  </concept>
+  <concept>
+    <code value="Z"/>
+    <display value="Z"/>
+    <definition value="recommended but not required"/>
+  </concept>
+</CodeSystem>

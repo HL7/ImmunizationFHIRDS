@@ -1,0 +1,83 @@
+{
+    "sct-edition": "http://snomed.info/sct/731000124108",
+    "spreadsheets": [
+        "cdsi-patient-profile-spreadsheet.xml",
+        "cdsi-immunizationrecommendation-profile-spreadsheet.xml",
+        "cdsi-immunization-profile-spreadsheet.xml"
+    ],
+    "canonicalBase": "http://www.fhir.org/guides/ig-template",
+    "source": "ig.xml",
+    "dependencyList": [{
+        "name": "uscore",
+        "location": "http://hl7.org/fhir/us/core/"
+    }],
+    "defaults": {
+        "StructureDefinition": {
+            "template-defns": "sd-definitions.html",
+            "template-base": "sd.html",
+            "template-mappings": "sd-mappings.html"
+        },
+        "ConceptMap": {"template-base": "cm.html"},
+        "Any": {
+            "template-base": "base.html",
+            "template-format": "format.html"
+        },
+        "CodeSystem": {"template-base": "codesys.html"},
+        "ValueSet": {"template-base": "vs.html"},
+        "AllergyIntolerance": {"template-base": "ex.html"},
+        "CapabilityStatement": {"template-base": "capst.html"}
+    },
+    "paths": {
+        "output": "output",
+        "specification": "http://build.fhir.org",
+        "pages": "pages",
+        "temp": "temp",
+        "resources": [
+            "resources"
+        ],
+        "txCache": "txCache",
+        "qa": "qa"
+    },
+    "resources": {
+
+    "ValueSet/doseStatus-codes": {
+          "base": "ValueSet-dostStatus-codes.html"
+    },
+
+    "ValueSet/doseStatusReason-codes": {
+          "base": "ValueSet-dostStatusReason-codes.html"
+    },
+
+    "ValueSet/forecastStatus-codes": {
+          "base": "ValueSet-forecastStatus-codes.html"
+    },
+
+
+    "ValueSet/forecastStatusReason-codes": {
+          "base": "ValueSet-forecastStatusReason-codes.html"
+    },
+
+   "StructureDefinition/template-forecastStatusReason": {
+            "defns": "StructureDefinition-template-forecastStatusReason-definitions.html",
+            "base": "StructureDefinition-template-forecastStatusReason.html"
+        },
+
+
+    "ValueSet/immRecDateCriterion-codes": {
+          "base": "ValueSet-immRecDateCriterion-codes.html"
+    },
+
+
+    "SearchParameter/blah": {
+            "source": "searchparameter-blah.xml",
+            "base": "SearchParameter-blah.html"
+        },
+        "StructureDefinition/template-blah": {
+            "defns": "StructureDefinition-template-blah-definitions.html",
+            "base": "StructureDefinition-template-blah.html"
+        }
+    
+    },
+    "tool": "jekyll",
+    "extraTemplates": ["mappings"]
+}

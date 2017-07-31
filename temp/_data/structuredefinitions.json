@@ -1,0 +1,63 @@
+﻿{
+  "cdsi-patient": {
+    "index": 0,
+    "url": "http://www.fhir.org/guides/ig-template/StructureDefinition/cdsi-patient",
+    "name": "CDS on FHIR Patient Profile",
+    "path": "StructureDefinition/cdsi-patient.html",
+    "kind": "resource",
+    "type": "Patient",
+    "base": "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename": "Patient",
+    "basepath": "http://build.fhir.org/patient.html",
+    "status": "draft",
+    "date": "Thu Apr 27 00:00:00 EDT 2017",
+    "publisher": "PHER"
+  },
+  "template-forecastStatusReason": {
+    "index": 1,
+    "url": "http://www.fhir.org/guides/ig-template/StructureDefinition/template-forecastStatusReason",
+    "name": "Example Extension",
+    "path": "StructureDefinition-template-forecastStatusReason.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://build.fhir.org/datatypes.html#Extension",
+    "status": "draft",
+    "date": "Thu Apr 27 00:00:00 EDT 2017",
+    "publisher": "PHER",
+    "description": "an example of a simple extension.",
+    "contextType": "Datatype",
+    "contexts": [
+      "ImmunizationRecommendation.recommendation"
+    ]
+  },
+  "cdsi-immunizationrecommendation": {
+    "index": 2,
+    "url": "http://www.fhir.org/guides/ig-template/StructureDefinition/cdsi-immunizationrecommendation",
+    "name": "CDS on FHIR ImmunizationRecommendation Profile",
+    "path": "StructureDefinition/cdsi-immunizationrecommendation.html",
+    "kind": "resource",
+    "type": "ImmunizationRecommendation",
+    "base": "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation",
+    "basename": "ImmunizationRecommendation",
+    "basepath": "http://build.fhir.org/immunizationrecommendation.html",
+    "status": "draft",
+    "date": "Thu Apr 27 00:00:00 EDT 2017",
+    "publisher": "PHER"
+  },
+  "cdsi-immunization": {
+    "index": 3,
+    "url": "http://www.fhir.org/guides/ig-template/StructureDefinition/cdsi-immunization",
+    "name": "CDS on FHIR Immunization Profile",
+    "path": "StructureDefinition/cdsi-immunization.html",
+    "kind": "resource",
+    "type": "Immunization",
+    "base": "http://hl7.org/fhir/StructureDefinition/Immunization",
+    "basename": "Immunization",
+    "basepath": "http://build.fhir.org/immunization.html",
+    "status": "draft",
+    "date": "Thu Apr 27 00:00:00 EDT 2017",
+    "publisher": "PHER"
+  }
+}

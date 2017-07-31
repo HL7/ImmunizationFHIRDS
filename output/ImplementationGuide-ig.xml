@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ig"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Implementation Guide Template</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/ig-template/ImplementationGuide/ig</pre></div>
+  </text>
+  <url value="http://www.fhir.org/guides/ig-template/ImplementationGuide/ig"/>
+  <name value="Implementation Guide Template"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="FHIR Project"/>
+  <package>
+    <name value="base"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="OperationDefinition-cdsi-forecast-operation.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="OperationDefinition/cdsi-forecast-operation"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package>
+    <name value="CDS on FHIR Patient Profile"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-cdsi-patient.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CDS on FHIR Patient Profile"/>
+      <sourceReference>
+        <reference value="StructureDefinition/cdsi-patient"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package>
+    <name value="CDS on FHIR ImmunizationRecommendation Profile"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-forecastStatus-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Forecast Status codes"/>
+      <sourceReference>
+        <reference value="ValueSet/forecastStatus-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-forecastStatus-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Forecast Status codes"/>
+      <sourceReference>
+        <reference value="CodeSystem/forecastStatus-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-forecastStatusReason-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Forecast Status Reason codes"/>
+      <sourceReference>
+        <reference value="ValueSet/forecastStatusReason-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-forecastStatusReason-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Forecast Status Reason codes"/>
+      <sourceReference>
+        <reference value="CodeSystem/forecastStatusReason-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-immRecDateCriterion-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Immunization Recommendation Date Criterion Codes&#xA0;"/>
+      <sourceReference>
+        <reference value="ValueSet/immRecDateCriterion-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-template-forecastStatusReason.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Example Extension"/>
+      <sourceReference>
+        <reference value="StructureDefinition/template-forecastStatusReason"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-cdsi-immunizationrecommendation.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CDS on FHIR ImmunizationRecommendation Profile"/>
+      <sourceReference>
+        <reference value="StructureDefinition/cdsi-immunizationrecommendation"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package>
+    <name value="CDS on FHIR Immunization Profile"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-dostStatus-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Vaccination Protocol Dose Status codes"/>
+      <sourceReference>
+        <reference value="ValueSet/doseStatus-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-doseStatus-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Vaccination Protocol Dose Status codes"/>
+      <sourceReference>
+        <reference value="CodeSystem/doseStatus-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-dostStatusReason-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Vaccination Protocol Dose Status Reason codes"/>
+      <sourceReference>
+        <reference value="ValueSet/doseStatusReason-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-doseStatusReason-codes.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Vaccination Protocol Dose Status Reason codes"/>
+      <sourceReference>
+        <reference value="CodeSystem/doseStatusReason-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-cdsi-immunization.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CDS on FHIR Immunization Profile"/>
+      <sourceReference>
+        <reference value="StructureDefinition/cdsi-immunization"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <page>
+    <source value="cdsi-operation.html"/>
+    <title value="CDSi Operation"/>
+    <kind value="page"/>
+  </page>
+</ImplementationGuide>

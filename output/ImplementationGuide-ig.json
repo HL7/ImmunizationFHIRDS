@@ -1,0 +1,221 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ig",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Implementation Guide Template</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/ig-template/ImplementationGuide/ig</pre></div>"
+  },
+  "url": "http://www.fhir.org/guides/ig-template/ImplementationGuide/ig",
+  "name": "Implementation Guide Template",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "FHIR Project",
+  "package": [
+    {
+      "name": "base",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "OperationDefinition-cdsi-forecast-operation.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "OperationDefinition/cdsi-forecast-operation"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CDS on FHIR Patient Profile",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-cdsi-patient.html"
+            }
+          ],
+          "example": false,
+          "name": "CDS on FHIR Patient Profile",
+          "sourceReference": {
+            "reference": "StructureDefinition/cdsi-patient"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CDS on FHIR ImmunizationRecommendation Profile",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-forecastStatus-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Forecast Status codes",
+          "sourceReference": {
+            "reference": "ValueSet/forecastStatus-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-forecastStatus-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Forecast Status codes",
+          "sourceReference": {
+            "reference": "CodeSystem/forecastStatus-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-forecastStatusReason-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Forecast Status Reason codes",
+          "sourceReference": {
+            "reference": "ValueSet/forecastStatusReason-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-forecastStatusReason-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Forecast Status Reason codes",
+          "sourceReference": {
+            "reference": "CodeSystem/forecastStatusReason-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-immRecDateCriterion-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Immunization Recommendation Date Criterion Codes ",
+          "sourceReference": {
+            "reference": "ValueSet/immRecDateCriterion-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-template-forecastStatusReason.html"
+            }
+          ],
+          "example": false,
+          "name": "Example Extension",
+          "sourceReference": {
+            "reference": "StructureDefinition/template-forecastStatusReason"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-cdsi-immunizationrecommendation.html"
+            }
+          ],
+          "example": false,
+          "name": "CDS on FHIR ImmunizationRecommendation Profile",
+          "sourceReference": {
+            "reference": "StructureDefinition/cdsi-immunizationrecommendation"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CDS on FHIR Immunization Profile",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-dostStatus-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Vaccination Protocol Dose Status codes",
+          "sourceReference": {
+            "reference": "ValueSet/doseStatus-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-doseStatus-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Vaccination Protocol Dose Status codes",
+          "sourceReference": {
+            "reference": "CodeSystem/doseStatus-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-dostStatusReason-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Vaccination Protocol Dose Status Reason codes",
+          "sourceReference": {
+            "reference": "ValueSet/doseStatusReason-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-doseStatusReason-codes.html"
+            }
+          ],
+          "example": false,
+          "name": "Vaccination Protocol Dose Status Reason codes",
+          "sourceReference": {
+            "reference": "CodeSystem/doseStatusReason-codes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-cdsi-immunization.html"
+            }
+          ],
+          "example": false,
+          "name": "CDS on FHIR Immunization Profile",
+          "sourceReference": {
+            "reference": "StructureDefinition/cdsi-immunization"
+          }
+        }
+      ]
+    }
+  ],
+  "page": {
+    "source": "cdsi-operation.html",
+    "title": "CDSi Operation",
+    "kind": "page"
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="forecastStatusReason-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Forecast Status Reason codes</h2><div><p>a bunch of example codes</p>
+</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes defines the following codes:</p><table class="codes"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>valid<a name="forecastStatusReason-codes-valid"> </a></td><td>Valid</td><td>Dose is Valid</td></tr><tr><td>not valid<a name="forecastStatusReason-codes-notvalid"> </a></td><td>Not Valid</td><td>Dose is Not Valid</td></tr><tr><td>extraneous<a name="forecastStatusReason-codes-extraneous"> </a></td><td>Extraneous</td><td>Dose is Extraneous</td></tr><tr><td>substandard<a name="forecastStatusReason-codes-substandard"> </a></td><td>Substandard</td><td>Dose is Substandard</td></tr></table></div>
+  </text>
+  <url value="http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatusReason-codes"/>
+  <name value="Forecast Status Reason codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2017-05-25T15:05:26-04:00"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+    </telecom>
+  </contact>
+  <description value="a bunch of example codes"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://www.fhir.org/guides/ig-template/ValueSet/forecastStatusReason-codes"/>
+  <content value="complete"/>
+  <concept>
+    <code value="valid"/>
+    <display value="Valid"/>
+    <definition value="Dose is Valid"/>
+  </concept>
+  <concept>
+    <code value="not valid"/>
+    <display value="Not Valid"/>
+    <definition value="Dose is Not Valid"/>
+  </concept>
+  <concept>
+    <code value="extraneous"/>
+    <display value="Extraneous"/>
+    <definition value="Dose is Extraneous"/>
+  </concept>
+  <concept>
+    <code value="substandard"/>
+    <display value="Substandard"/>
+    <definition value="Dose is Substandard"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="cdsi"/>
+	<url value="http://www.nist.gov/ImplementationGuide/cdsi"/>
+	<version value="1"/>
+	<name value="CDSi"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<publisher value="NIST"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+		</coding>
+	</jurisdiction>
+	<package>
+		<name value="base"/>
+		<!-- **************************Operations OPERATIONS  OPERATIONs  OPERATIONS ************************************-->
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="OperationDefinition/cdsi-forecast-operation"/>
+			</sourceReference>
+		</resource>
+	</package>
+	<page>
+		<source value="index.html"/>
+		<title value="Home Page"/>
+		<kind value="page"/>
+		<page>
+			<source value="cdsi-operation.html"/>
+			<title value="CDSi Operation"/>
+			<kind value="page"/>
+		</page>
+	</page>
+</ImplementationGuide>

@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/OperationDefinition/cdsi-forecast-operation> a fhir:OperationDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cdsi-forecast-operation"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n			<h2>CDS-Immunization Forecast</h2>\n			<p>OPERATION: CDS-Immunization Forecast</p>\n			<div>\n				<p>This is a Clinicial Decision Support Immunization Forecast Request operation. This is a proposed new operation type by the CDC and IIS organizations in support of standardizing the request and response interfaces to Immunization Forecasters.</p>\n			</div>\n			<p>URL: [base]/Paramters/$cds-immunization-forecast</p>\n			<p>Parameters</p>\n			<table class=\"grid\">\n				<tr>\n					<td>\n						<b>Use</b>\n					</td>\n					<td>\n						<b>Name</b>\n					</td>\n					<td>\n						<b>Cardinality</b>\n					</td>\n					<td>\n						<b>Type</b>\n					</td>\n					<td>\n						<b>Binding</b>\n					</td>\n					<td>\n						<b>Documentation</b>\n					</td>\n				</tr>\n				<tr>\n					<td>IN</td>\n					<td>assessmentDate</td>\n					<td>1..1</td>\n					<td><a href=\"http://build.fhir.org/datatypes.html#dateTime\">datetime</a></td>\n					<td/>\n					<td>\n						<div>\n							<p>The date on which to assess the forecast</p>\n						</div>\n					</td>\n				</tr>\n				<tr>\n\n\n					<td>IN</td>\n					<td>patient</td>\n					<td>1..1</td>\n					<td><a href=\"cdsi-patient.html\">Patient</a></td>\n					<td>\n					</td>\n					<td>\n						<div>\n							<p>Patient information (only gender and birthDate)</p>\n						</div>\n					</td>\n				</tr>\n				<tr>\n\n					<td>IN</td>\n					<td>immunization</td>\n					<td>0..*</td>\n					<td><a href=\"cdsi-immunization.html\">Immunization</a></td>\n					<td/>\n					<td>\n						<div>\n							<p>Patient immunization history</p>\n						</div>\n					</td>\n				</tr>\n				<tr>\n					<td>OUT</td>\n					<td>recommendation</td>\n					<td>1..1</td>\n					<td><a href=\"cdsi-immunization.html\">ImmunizationRecommendation</a></td>\n					<td/>\n					<td>\n						<div>\n							<p>The CDS-Immunization engine produced forecast</p>\n						</div>\n					</td>\n				</tr>\n			</table>\n			<div>\n\n			</div>\n		</div>"
+  ];
+  fhir:OperationDefinition.url [ fhir:value "http://www.fhir.org/guides/ig-template/OperationDefinition/cdsi-forecast-operation"];
+  fhir:OperationDefinition.name [ fhir:value "CDSi Forecast"];
+  fhir:OperationDefinition.status [ fhir:value "draft"];
+  fhir:OperationDefinition.kind [ fhir:value "operation"];
+  fhir:OperationDefinition.date [ fhir:value "2015-05-05T00:34:00-05:00"^^xsd:dateTime];
+  fhir:OperationDefinition.publisher [ fhir:value "NIST"];
+  fhir:OperationDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "System Administrator" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michael.indovina@nist.gov" ]
+     ]
+  ];
+  fhir:OperationDefinition.description [ fhir:value "This is a Clinicial Decision Support Immunization Forecast Request operation. This is a proposed new operation type by the CDC and IIS organizations in support of standardizing the request and response interfaces to Immunization Forecasters."];
+  fhir:OperationDefinition.code [ fhir:value "cdsi-forecast"];
+  fhir:OperationDefinition.comment [ fhir:value "Pilot implemented in AEGIS WildFHIR FHIR test client and server - http://wildfhir.aegis.net/fhir1-8-0-gui"];
+  fhir:OperationDefinition.resource [
+     fhir:value "Patient";
+     fhir:index 0
+  ];
+  fhir:OperationDefinition.system [ fhir:value "false"^^xsd:boolean];
+  fhir:OperationDefinition.type [ fhir:value "true"^^xsd:boolean];
+  fhir:OperationDefinition.instance [ fhir:value "false"^^xsd:boolean];
+  fhir:OperationDefinition.parameter [
+     fhir:index 0;
+     fhir:OperationDefinition.parameter.name [ fhir:value "assessmentDate" ];
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ];
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ];
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ];
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "The date on which to assess the forecast." ];
+     fhir:OperationDefinition.parameter.type [ fhir:value "date" ]
+  ], [
+     fhir:index 1;
+     fhir:OperationDefinition.parameter.name [ fhir:value "patient" ];
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ];
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ];
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ];
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Patient information - gender and birthDate only" ];
+     fhir:OperationDefinition.parameter.type [ fhir:value "Patient" ];
+     fhir:OperationDefinition.parameter.binding [
+       fhir:OperationDefinition.parameter.binding.strength [ fhir:value "required" ];
+       fhir:OperationDefinition.parameter.binding.valueSetUri [ fhir:value "http://hl7.org/fhir/ValueSet/administrative-gender" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:OperationDefinition.parameter.name [ fhir:value "immunization" ];
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ];
+     fhir:OperationDefinition.parameter.min [ fhir:value "0"^^xsd:integer ];
+     fhir:OperationDefinition.parameter.max [ fhir:value "*" ];
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Patient immunization history" ];
+     fhir:OperationDefinition.parameter.type [ fhir:value "Immunization" ]
+  ], [
+     fhir:index 3;
+     fhir:OperationDefinition.parameter.name [ fhir:value "recommendation" ];
+     fhir:OperationDefinition.parameter.use [ fhir:value "out" ];
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ];
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ];
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "immunization recommendation" ];
+     fhir:OperationDefinition.parameter.type [ fhir:value "ImmunizationRecommendation" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/OperationDefinition/cdsi-forecast-operation.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

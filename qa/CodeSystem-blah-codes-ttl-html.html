@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+  <title>CodeSystem-blah-codes-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;blah-codes&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;BlahCodes&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A bunch of example codes&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;This code system http://www.fhir.org/guides/ig-template/CodeSystem/blah-codes defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;valid&lt;a name=\&quot;blah-codes-valid\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Valid&lt;/td&gt;&lt;td&gt;Dose is Valid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;not valid&lt;a name=\&quot;blah-codes-notvalid\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not Valid&lt;/td&gt;&lt;td&gt;Dose is Not Valid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;extraneous&lt;a name=\&quot;blah-codes-extraneous\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Extraneous&lt;/td&gt;&lt;td&gt;Dose is Extraneous&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;substandard&lt;a name=\&quot;blah-codes-substandard\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Substandard&lt;/td&gt;&lt;td&gt;Dose is Substandard&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.fhir.org/guides/ig-template/CodeSystem/blah-codes&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;BlahCodes&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;draft&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.experimental">fhir:CodeSystem.experimental</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2017-05-03T17:01:15-04:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.contact">fhir:CodeSystem.contact</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+       <a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;url&quot; ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+       <a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;email&quot; ]     ]
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;A bunch of example codes&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.valueSet">fhir:CodeSystem.valueSet</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.fhir.org/guides/ig-template/ValueSet/blah-codes&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;complete&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;valid&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Valid&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Dose is Valid&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;not valid&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Not Valid&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Dose is Not Valid&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;extraneous&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Extraneous&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Dose is Extraneous&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;substandard&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Substandard&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Dose is Substandard&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

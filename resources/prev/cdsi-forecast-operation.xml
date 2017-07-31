@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperationDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ./fhirschema/fhir-base.xsd">
+	<id value="cdsi-forecast-operation"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h2>CDS Forecast</h2>
+			<p>OPERATION: CDS Forecast</p>
+			<div>
+				<p>This is a Clinicial Decision Support Immunization Forecast Request operation. This is a proposed new operation type by the CDC and IIS organizations in support of standardizing the request and response interfaces to Immunization Forecasters.</p>
+			</div>
+			<p>URL: [base]/Patient/$cds-forecast</p>
+			<p>Parameters</p>
+			<table class="grid">
+				<tr>
+					<td>
+						<b>Use</b>
+					</td>
+					<td>
+						<b>Name</b>
+					</td>
+					<td>
+						<b>Cardinality</b>
+					</td>
+					<td>
+						<b>Type</b>
+					</td>
+					<td>
+						<b>Binding</b>
+					</td>
+					<td>
+						<b>Documentation</b>
+					</td>
+				</tr>
+				<tr>
+					<td>IN</td>
+					<td>assessmentDate</td>
+					<td>1..1</td>
+					<td>date</td>
+					<td/>
+					<td>
+						<div>
+							<p>The date on which to assess the forecast</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>IN</td>
+					<td>patient</td>
+					<td>1..1</td>
+					<td>Patient</td>
+					<td>
+					</td>
+					<td>
+						<div>
+							<p>Patient information - gender and birthDate only</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>IN</td>
+					<td>immunization</td>
+					<td>0..*</td>
+					<td>Immunization</td>
+					<td/>
+					<td>
+						<div>
+							<p>Patient immunization history</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>OUT</td>
+					<td>recommendation</td>
+					<td>1..1</td>
+					<td>ImmunizationRecommendation</td>
+					<td/>
+					<td>
+						<div>
+							<p>immunization recommendation</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div>
+
+			</div>
+		</div>
+	</text>
+	<url value="http://www.nist.gov/OperationDefinition/cdsi-forecast-operation"/>
+	<name value="CDSi Forecast"/>
+	<status value="draft"/>
+	<kind value="operation"/>
+	<date value="2015-05-05T00:34:00-05:00"/>
+	<publisher value="NIST"/>
+	<contact>
+		<name value="System Administrator"/>
+		<telecom>
+			<system value="email"/>
+			<value value="michael.indovina@nist.gov"/>
+		</telecom>
+	</contact>
+	<description value="This is a Clinicial Decision Support Immunization Forecast Request operation. This is a proposed new operation type by the CDC and IIS organizations in support of standardizing the request and response interfaces to Immunization Forecasters."/>
+	<code value="cdsi-forecast"/>
+	<comment value="Pilot implemented in AEGIS WildFHIR FHIR test client and server - http://wildfhir.aegis.net/fhir1-8-0-gui"/>
+	<resource value="Patient"/>
+	<system value="false"/>
+	<type value="true"/>
+	<instance value="false"/>
+	<parameter>
+		<name value="assessmentDate"/>
+		<use value="in"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="The date on which to assess the forecast."/>
+		<type value="date"/>
+	</parameter>
+	<parameter>
+		<name value="patient"/>
+		<use value="in"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="Patient information - gender and birthDate only"/>
+		<type value="Patient"/>
+		<binding>
+			<strength value="required"/>
+			<valueSetUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+		</binding>
+	</parameter>
+	<parameter>
+		<name value="immunization"/>
+		<use value="in"/>
+		<min value="0"/>
+		<max value="*"/>
+		<documentation value="Patient immunization history"/>
+		<type value="Immunization"/>
+	</parameter>
+	<parameter>
+		<name value="recommendation"/>
+		<use value="out"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="immunization recommendation"/>
+		<type value="ImmunizationRecommendation"/>
+	</parameter>
+</OperationDefinition>

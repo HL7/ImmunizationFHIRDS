@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "doseStatus-codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Vaccination Protocol Dose Status codes</h2><div><p>A bunch of example codes</p>\n</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/doseStatus-codes defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>valid<a name=\"doseStatus-codes-valid\"> </a></td><td>Valid</td><td>Dose is Valid</td></tr><tr><td>not valid<a name=\"doseStatus-codes-notvalid\"> </a></td><td>Not Valid</td><td>Dose is Not Valid</td></tr><tr><td>extraneous<a name=\"doseStatus-codes-extraneous\"> </a></td><td>Extraneous</td><td>Dose is Extraneous</td></tr><tr><td>substandard<a name=\"doseStatus-codes-substandard\"> </a></td><td>Substandard</td><td>Dose is Substandard</td></tr></table></div>"
+  },
+  "url": "http://www.fhir.org/guides/ig-template/CodeSystem/doseStatus-codes",
+  "name": "Vaccination Protocol Dose Status codes",
+  "status": "draft",
+  "experimental": false,
+  "date": "2017-05-25T15:05:26-04:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url"
+        },
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "A bunch of example codes",
+  "caseSensitive": true,
+  "valueSet": "http://www.fhir.org/guides/ig-template/ValueSet/doseStatus-codes",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "valid",
+      "display": "Valid",
+      "definition": "Dose is Valid"
+    },
+    {
+      "code": "not valid",
+      "display": "Not Valid",
+      "definition": "Dose is Not Valid"
+    },
+    {
+      "code": "extraneous",
+      "display": "Extraneous",
+      "definition": "Dose is Extraneous"
+    },
+    {
+      "code": "substandard",
+      "display": "Substandard",
+      "definition": "Dose is Substandard"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>Implementation Guide Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Implementation Guide Template Implemenation Guide" />
+<meta name="author" content="http://argonautwiki.hl7.org"/>
+
+  <link href="fhir.css" rel="stylesheet"/>
+
+   <!-- Bootstrap core CSS -->
+
+   <!-- Latest compiled and minified CSS -->
+
+  <link href="dist/css/bootstrap.css" rel="stylesheet"/>
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet"/>
+  <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+	<link href="jquery-ui.css" rel="stylesheet"/>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+
+
+<body markdown="1">
+
+
+
+
+</div>  <!-- /container -->
+</div>  <!-- /segment-breadcrumb -->
+
+<div id="segment-content" class="segment">  <!-- segment-content -->
+<div class="container">  <!-- container -->
+<div class="row">
+<div class="inner-wrapper">
+
+
+<div class="col-12">
+
+
+
+<!-- ============BreadCrumb=============== -->
+
+<nav class="breadcrumb">
+  
+    
+    
+      <a class="breadcrumb-item" href="index.html">Home</a>
+      /
+      <a class="breadcrumb-item" href="profiles.html">Profiles</a>
+      /
+      <span class="breadcrumb-item active">OperationDefinition-cdsi-forecast-operation</span>
+    
+    
+    
+
+</nav>
+
+
+<!-- ============CONTENT CONTENT=============== -->
+
+<h2>CDSi Forecast</h2>
+
+<p>
+Formats: <a href="OperationDefinition-cdsi-forecast-operation.xml.html">XML</a>, <a href="OperationDefinition-cdsi-forecast-operation.json.html">JSON</a>, <a href="OperationDefinition-cdsi-forecast-operation.ttl.html">Turtle</a>
+</p>
+
+<div xmlns="http://www.w3.org/1999/xhtml">
+			<h2>CDS-Immunization Forecast</h2>
+			<p>OPERATION: CDS-Immunization Forecast</p>
+			<div>
+				<p>This is a Clinicial Decision Support Immunization Forecast Request operation. This is a proposed new operation type by the CDC and IIS organizations in support of standardizing the request and response interfaces to Immunization Forecasters.</p>
+			</div>
+			<p>URL: [base]/Paramters/$cds-immunization-forecast</p>
+			<p>Parameters</p>
+			<table class="grid">
+				<tr>
+					<td>
+						<b>Use</b>
+					</td>
+					<td>
+						<b>Name</b>
+					</td>
+					<td>
+						<b>Cardinality</b>
+					</td>
+					<td>
+						<b>Type</b>
+					</td>
+					<td>
+						<b>Binding</b>
+					</td>
+					<td>
+						<b>Documentation</b>
+					</td>
+				</tr>
+				<tr>
+					<td>IN</td>
+					<td>assessmentDate</td>
+					<td>1..1</td>
+					<td><a href="http://build.fhir.org/datatypes.html#dateTime">datetime</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>The date on which to assess the forecast</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+
+
+					<td>IN</td>
+					<td>patient</td>
+					<td>1..1</td>
+					<td><a href="cdsi-patient.html">Patient</a></td>
+					<td>
+					</td>
+					<td>
+						<div>
+							<p>Patient information (only gender and birthDate)</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+
+					<td>IN</td>
+					<td>immunization</td>
+					<td>0..*</td>
+					<td><a href="cdsi-immunization.html">Immunization</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>Patient immunization history</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>OUT</td>
+					<td>recommendation</td>
+					<td>1..1</td>
+					<td><a href="cdsi-immunization.html">ImmunizationRecommendation</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>The CDS-Immunization engine produced forecast</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div>
+
+			</div>
+		</div>
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+</div>
+
+
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+
+</div>  <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">  <!-- segment-footer -->
+  <div class="container">  <!-- container -->
+   <div class="inner-wrapper">
+    <p>
+        &copy; PHER 2017+;
+        &copy; HL7.org 2011+. FHIR Release 3 (STU; v3.0.1-11917) generated on Wed, Apr 19, 2017 07:49+1000.
+        <span style="color: #FFFF77">
+        Links: <a style="color: #81BEF7" href="http://hl7.org/fhir/search.cfm">Search <img style="text-align: baseline" src="external.png"/></a> |
+        </span>
+        </p>
+   </div>  <!-- /inner-wrapper -->
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-footer -->
+  <!-- disqus thread -->
+  <!-- disqus -->
+  <!-- end disqus -->
+
+ <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+  <div class="container">  <!-- container -->
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-post-footer -->
+
+      <!-- JS and analytics only. -->
+      <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="dist/js/bootstrap.min.js"> </script>
+<script src="assets/js/respond.min.js"> </script>
+
+<script src="assets/js/fhir.js"> </script>
+
+  <!-- Analytics Below
+================================================== -->
+

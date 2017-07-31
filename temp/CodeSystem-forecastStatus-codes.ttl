@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "forecastStatus-codes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Forecast Status codes</h2><div><p>a bunch of example codes</p>\n</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>A<a name=\"forecastStatus-codes-A\"> </a></td><td>A</td><td>assumed complete or immune</td></tr><tr><td>C<a name=\"forecastStatus-codes-C\"> </a></td><td>C</td><td>complete</td></tr><tr><td>D<a name=\"forecastStatus-codes-D\"> </a></td><td>D</td><td>due</td></tr><tr><td>E<a name=\"forecastStatus-codes-E\"> </a></td><td>E</td><td>error</td></tr><tr><td>F<a name=\"forecastStatus-codes-F\"> </a></td><td>F</td><td>finished</td></tr><tr><td>G<a name=\"forecastStatus-codes-G\"> </a></td><td>G</td><td>aged out</td></tr><tr><td>I<a name=\"forecastStatus-codes-I\"> </a></td><td>I</td><td>immune</td></tr><tr><td>L<a name=\"forecastStatus-codes-L\"> </a></td><td>L</td><td>due later</td></tr><tr><td>N<a name=\"forecastStatus-codes-N\"> </a></td><td>N</td><td>not complete</td></tr><tr><td>O<a name=\"forecastStatus-codes-O\"> </a></td><td>O</td><td>overdue</td></tr><tr><td>R<a name=\"forecastStatus-codes-R\"> </a></td><td>R</td><td>no results</td></tr><tr><td>S<a name=\"forecastStatus-codes-S\"> </a></td><td>S</td><td>complete for season</td></tr><tr><td>U<a name=\"forecastStatus-codes-U\"> </a></td><td>U</td><td>unknown</td></tr><tr><td>V<a name=\"forecastStatus-codes-V\"> </a></td><td>V</td><td>Consider</td></tr><tr><td>W<a name=\"forecastStatus-codes-W\"> </a></td><td>W</td><td>waivered</td></tr><tr><td>X<a name=\"forecastStatus-codes-X\"> </a></td><td>X</td><td>contraindicated</td></tr><tr><td>Z<a name=\"forecastStatus-codes-Z\"> </a></td><td>Z</td><td>recommended but not required</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes"];
+  fhir:CodeSystem.name [ fhir:value "Forecast Status codes"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2017-05-25T15:05:26-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "a bunch of example codes"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [ fhir:value "http://www.fhir.org/guides/ig-template/ValueSet/forecastStatus-codes"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "A" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "assumed complete or immune" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ];
+     fhir:CodeSystem.concept.display [ fhir:value "C" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "complete" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "D" ];
+     fhir:CodeSystem.concept.display [ fhir:value "D" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "due" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ];
+     fhir:CodeSystem.concept.display [ fhir:value "E" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "error" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "F" ];
+     fhir:CodeSystem.concept.display [ fhir:value "F" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "finished" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "G" ];
+     fhir:CodeSystem.concept.display [ fhir:value "G" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "aged out" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ];
+     fhir:CodeSystem.concept.display [ fhir:value "I" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "immune" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "L" ];
+     fhir:CodeSystem.concept.display [ fhir:value "L" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "due later" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ];
+     fhir:CodeSystem.concept.display [ fhir:value "N" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "not complete" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "O" ];
+     fhir:CodeSystem.concept.display [ fhir:value "O" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "overdue" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "R" ];
+     fhir:CodeSystem.concept.display [ fhir:value "R" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "no results" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ];
+     fhir:CodeSystem.concept.display [ fhir:value "S" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "complete for season" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ];
+     fhir:CodeSystem.concept.display [ fhir:value "U" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "unknown" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "V" ];
+     fhir:CodeSystem.concept.display [ fhir:value "V" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Consider" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "W" ];
+     fhir:CodeSystem.concept.display [ fhir:value "W" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "waivered" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "X" ];
+     fhir:CodeSystem.concept.display [ fhir:value "X" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "contraindicated" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "Z" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Z" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "recommended but not required" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/forecastStatus-codes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

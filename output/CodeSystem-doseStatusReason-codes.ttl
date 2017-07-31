@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "doseStatusReason-codes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Vaccination Protocol Dose Status Reason codes</h2><div><p>A bunch of example codes</p>\n</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>Reason1<a name=\"doseStatusReason-codes-Reason1\"> </a></td><td>Reason1</td><td>Vaccine Dose Administered was administered after the Lot Number Expiration Date.</td></tr><tr><td>Reason2<a name=\"doseStatusReason-codes-Reason2\"> </a></td><td>Reason2</td><td>Vaccine Dose Administered was deemed to be ineffective or sub-potent. (e.g. recalled, cold-chain break, partially administered).</td></tr><tr><td>Reason3<a name=\"doseStatusReason-codes-Reason3\"> </a></td><td>Reason3</td><td>Vaccine Dose Administered was administered at too young of an age.</td></tr><tr><td>Reason4<a name=\"doseStatusReason-codes-Reason4\"> </a></td><td>Reason4</td><td>Vaccine Dose Administered was administered too soon following a previous dose.</td></tr><tr><td>Reason5<a name=\"doseStatusReason-codes-Reason5\"> </a></td><td>Reason5</td><td>Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict).</td></tr><tr><td>Reason6<a name=\"doseStatusReason-codes-Reason6\"> </a></td><td>Reason6</td><td>Vaccine Dose Administered amount was less than the recommended amount.</td></tr><tr><td>Reason7<a name=\"doseStatusReason-codes-Reason7\"> </a></td><td>Reason7</td><td>Vaccine Dose Administered was administered outside of an acceptable age range</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes"];
+  fhir:CodeSystem.name [ fhir:value "Vaccination Protocol Dose Status Reason codes"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2017-05-25T15:05:26-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A bunch of example codes"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [ fhir:value "http://www.fhir.org/guides/ig-template/ValueSet/doseStatusReason-codes"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason1" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was administered after the Lot Number Expiration Date." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason2" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was deemed to be ineffective or sub-potent. (e.g. recalled, cold-chain break, partially administered)." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason3" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was administered at too young of an age." ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason4" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was administered too soon following a previous dose." ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason5" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict)." ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason6" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered amount was less than the recommended amount." ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "Reason7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason7" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Vaccine Dose Administered was administered outside of an acceptable age range" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
