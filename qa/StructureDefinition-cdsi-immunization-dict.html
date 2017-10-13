@@ -86,7 +86,6 @@
   <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>A set of codes indicating the current status of an Immunization<br/>The codes SHALL be taken from <a href="http://build.fhir.org/valueset-immunization-status.html">Immunization Status Codes</a></td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>Will generally be set to show that the immunization has been completed.</p>
 <p>This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</p>
 </td></tr>
@@ -96,7 +95,6 @@
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#boolean">boolean</a></td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>This element is labeled as a modifier because it indicates that an immunization didn't happen.</p>
 </td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccineCode"> </a><a name="Immunization.vaccineCode"> </a><b>Immunization.vaccineCode</b></td></tr>
@@ -105,13 +103,11 @@
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>The code for vaccine product administered<br/>For example codes, see <a href="http://build.fhir.org/valueset-vaccine-code.html">Vaccine Administered Value Set</a></td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.patient"> </a><a name="Immunization.patient"> </a><b>Immunization.patient</b></td></tr>
   <tr><td>Definition</td><td><p>The patient who either received or did not receive the immunization.</p>
 </td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#Reference">Reference</a>(<a href="http://build.fhir.org/patient.html" title="http://hl7.org/fhir/StructureDefinition/Patient">Patient</a>)</td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>Patient</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.encounter"> </a><a name="Immunization.encounter"> </a><b>Immunization.encounter</b></td></tr>
   <tr><td>Definition</td><td><p>The visit or admission or other contact between patient and health care provider the immunization was performed as part of.</p>
@@ -123,7 +119,6 @@
 </td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#dateTime">dateTime</a></td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given.</p>
 </td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.primarySource"> </a><a name="Immunization.primarySource"> </a><b>Immunization.primarySource</b></td></tr>
@@ -149,8 +144,9 @@
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.manufacturer"> </a><a name="Immunization.manufacturer"> </a><b>Immunization.manufacturer</b></td></tr>
   <tr><td>Definition</td><td><p>Name of vaccine manufacturer.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#Reference">Reference</a>(<a href="http://build.fhir.org/organization.html" title="http://hl7.org/fhir/StructureDefinition/Organization">Organization</a>)</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.lotNumber"> </a><a name="Immunization.lotNumber"> </a><b>Immunization.lotNumber</b></td></tr>
   <tr><td>Definition</td><td><p>Lot number of the  vaccine product.</p>
 </td></tr>
@@ -159,8 +155,9 @@
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.expirationDate"> </a><a name="Immunization.expirationDate"> </a><b>Immunization.expirationDate</b></td></tr>
   <tr><td>Definition</td><td><p>Date vaccine batch expires.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#date">date</a></td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.site"> </a><a name="Immunization.site"> </a><b>Immunization.site</b></td></tr>
   <tr><td>Definition</td><td><p>Body site where vaccine was administered.</p>
 </td></tr>
@@ -176,8 +173,9 @@
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.doseQuantity"> </a><a name="Immunization.doseQuantity"> </a><b>Immunization.doseQuantity</b></td></tr>
   <tr><td>Definition</td><td><p>The quantity of vaccine product that was administered.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#Quantity">Quantity</a>(<a href="http://build.fhir.org/datatypes.html#SimpleQuantity" title="http://hl7.org/fhir/StructureDefinition/SimpleQuantity">SimpleQuantity</a>)</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.practitioner"> </a><a name="Immunization.practitioner"> </a><b>Immunization.practitioner</b></td></tr>
   <tr><td>Definition</td><td><p>Indicates who or what performed the event.</p>
 </td></tr>
@@ -310,12 +308,12 @@
 </td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#boolean">boolean</a></td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccinationProtocol"> </a><a name="Immunization.vaccinationProtocol"> </a><b>Immunization.vaccinationProtocol</b></td></tr>
   <tr><td>Definition</td><td><p>Contains information about the protocol(s) under which the vaccine was administered.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#BackboneElement">BackboneElement</a></td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() | (children().count() &gt; id.count()))</td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccinationProtocol.id"> </a><a name="Immunization.vaccinationProtocol.id"> </a><b>Immunization.vaccinationProtocol.id</b></td></tr>
@@ -368,7 +366,7 @@
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccinationProtocol.targetDisease"> </a><a name="Immunization.vaccinationProtocol.targetDisease"> </a><b>Immunization.vaccinationProtocol.targetDisease</b></td></tr>
   <tr><td>Definition</td><td><p>The targeted disease.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..*</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>The disease target of the vaccination protocol<br/>For example codes, see <a href="http://build.fhir.org/valueset-vaccination-protocol-dose-target.html">Vaccination Protocol Dose Target Codes</a></td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccinationProtocol.doseStatus"> </a><a name="Immunization.vaccinationProtocol.doseStatus"> </a><b>Immunization.vaccinationProtocol.doseStatus</b></td></tr>
@@ -377,15 +375,15 @@
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>A bunch of example codes<br/>The codes SHALL be taken from <a href="ValueSet-dostStatus-codes.html">Vaccination Protocol Dose Status codes</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>May need to differentiate between status declarations by a provider vs. a CDS engine.</p>
 </td></tr>
   <tr><td colspan="2" class="structure"><a name="Immunization:cdsiimmunization.vaccinationProtocol.doseStatusReason"> </a><a name="Immunization.vaccinationProtocol.doseStatusReason"> </a><b>Immunization.vaccinationProtocol.doseStatusReason</b></td></tr>
   <tr><td>Definition</td><td><p>Provides an explanation as to why an immunization event should or should not count against the protocol.</p>
 </td></tr>
-  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
   <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>A bunch of example codes<br/>The codes SHALL be taken from <a href="ValueSet-dostStatusReason-codes.html">Vaccination Protocol Dose Status Reason codes</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
+  <tr><td><a href="http://build.fhir.org/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
 </table>
 </body>
 </html>

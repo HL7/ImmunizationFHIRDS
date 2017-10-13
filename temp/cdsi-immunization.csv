@@ -26,20 +26,20 @@ user content","",0,*,"","Y","","Extension
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"","","N/A"
 "Immunization.identifier","","","",0,*,"","","","Identifier
 ","Business identifier","A unique identifier assigned to this immunization record.","","","","","","","","","",,,,,"",,,,"Immunization.identifier",0,*,"","",".id","id","Event.identifier","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/id"
-"Immunization.status","","","",1,1,"Y","Y","Y","code
+"Immunization.status","","","",1,1,"","Y","Y","code
 ","completed | entered-in-error","Indicates the current status of the vaccination event.","Will generally be set to show that the immunization has been completed.
 
 This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.","","","","","","","","",,"required","A set of codes indicating the current status of an Immunization","http://hl7.org/fhir/ValueSet/immunization-status","",,,,"Immunization.status",1,1,"","","statusCode","status","Event.status"
-"Immunization.notGiven","","","",1,1,"Y","Y","Y","boolean
+"Immunization.notGiven","","","",1,1,"","Y","Y","boolean
 ","Flag for whether immunization was given","Indicates if the vaccination was or was not given.","This element is labeled as a modifier because it indicates that an immunization didn't happen.","","","","","","","","",,,,,"",,,,"Immunization.notGiven",1,1,"","","[actionNegationInd=true].reasonCode","status","Event.notDone"
-"Immunization.vaccineCode","","","",1,1,"Y","","","CodeableConcept
+"Immunization.vaccineCode","","","",1,1,"","","","CodeableConcept
 ","Vaccine Product Type (bind to CVX)","Vaccine that was administered or was to be administered.","","","","","","","","","",,"example","The code for vaccine product administered","http://hl7.org/fhir/ValueSet/vaccine-code","",,,,"Immunization.vaccineCode",1,1,"","","vaccine","RXA-5",".code","what","Event.code","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code"
 "Immunization.patient","","Patient
-","",1,1,"Y","","","Reference {http://hl7.org/fhir/StructureDefinition/Patient}
+","",1,1,"","","","Reference {http://hl7.org/fhir/StructureDefinition/Patient}
 ","Who was immunized","The patient who either received or did not receive the immunization.","","","","","","","","","",,,,,"",,,,"Immunization.patient",1,1,"","","subject","PID-3",".partipication[ttypeCode=].role","who.focus","Event.subject"
 "Immunization.encounter","","","",0,1,"","","","Reference {http://hl7.org/fhir/StructureDefinition/Encounter}
 ","Encounter administered as part of","The visit or admission or other contact between patient and health care provider the immunization was performed as part of.","","","","","","","","","",,,,,"",,,,"Immunization.encounter",0,1,"","","PV1-19","component->EncounterEvent","context","Event.context"
-"Immunization.date","","","",1,1,"Y","","","dateTime
+"Immunization.date","","","",1,1,"","","","dateTime
 ","Vaccination administration date","Date vaccine administered or was to be administered.","When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given.","","","","","","","","",,,,,"",,,,"Immunization.date",0,1,"","","performanceTime","RXA-3",".effectiveTime","when.init","Event.occurrence.occurrenceDateTime","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/effectiveTime/value"
 "Immunization.primarySource","","","",1,1,"","","","boolean
 ","Indicates context the data was recorded in","An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.","Reflects the “reliability” of the content.","","","","","","","","",,,,,"",,,,"Immunization.primarySource",1,1,"","","RXA-9","immunization.uncertaintycode (if primary source=false, uncertainty=U)","who.source"
@@ -49,17 +49,17 @@ This element is labeled as a modifier because the status contains codes that mar
 .participation[typeCode=INF].role[classCode=PRS] (this syntax for family member)","who.source"
 "Immunization.location","","","",0,1,"","","","Reference {http://hl7.org/fhir/StructureDefinition/Location}
 ","Where vaccination occurred","The service delivery location where the vaccine administration occurred.","","","","","","","","","",,,,,"",,,,"Immunization.location",0,1,"","","RXA-27  (or RXA-11, deprecated as of v2.7)",".participation[typeCode=LOC].COCT_MT240000UV","where"
-"Immunization.manufacturer","","","",0,1,"","","","Reference {http://hl7.org/fhir/StructureDefinition/Organization}
+"Immunization.manufacturer","","","",1,1,"Y","","","Reference {http://hl7.org/fhir/StructureDefinition/Organization}
 ","Vaccine manufacturer","Name of vaccine manufacturer.","","","","","","","","","",,,,,"",,,,"Immunization.manufacturer",0,1,"","","RXA-17",".participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=ORG]","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacuturerOrganization/name"
 "Immunization.lotNumber","","","",0,1,"","","","string
 ","Vaccine lot number","Lot number of the  vaccine product.","","","","","","","","","",,,,,"",,,,"Immunization.lotNumber",0,1,"","","RXA-15",".participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].id","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/lotNumberText"
-"Immunization.expirationDate","","","",0,1,"","","","date
+"Immunization.expirationDate","","","",1,1,"Y","","","date
 ","Vaccine expiration date","Date vaccine batch expires.","","","","","","","","","",,,,,"",,,,"Immunization.expirationDate",0,1,"","","RXA-16",".participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].expirationTime"
 "Immunization.site","","","",0,1,"","","","CodeableConcept
 ","Body site vaccine  was administered","Body site where vaccine was administered.","","","","","","","","","",,"example","The site at which the vaccine was administered","http://hl7.org/fhir/ValueSet/immunization-site","",,,,"Immunization.site",0,1,"","","RXR-2","observation.targetSiteCode","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/approachSiteCode/code"
 "Immunization.route","","","",0,1,"","","","CodeableConcept
 ","How vaccine entered body","The path by which the vaccine product is taken into the body.","","","","","","","","","",,"example","The route by which the vaccine was administered","http://hl7.org/fhir/ValueSet/immunization-route","",,,,"Immunization.route",0,1,"","","RXR-1",".routeCode","ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/routeCode/code"
-"Immunization.doseQuantity","","","",0,1,"","","","Quantity {http://hl7.org/fhir/StructureDefinition/SimpleQuantity}
+"Immunization.doseQuantity","","","",1,1,"Y","","","Quantity {http://hl7.org/fhir/StructureDefinition/SimpleQuantity}
 ","Amount of vaccine administered","The quantity of vaccine product that was administered.","","","","","","","","","",,,,,"",,,,"Immunization.doseQuantity",0,1,"","","RXA-6 / RXA-7.1",".doseQuantity"
 "Immunization.practitioner","","","",0,*,"","","Y","BackboneElement
 ","Who performed event","Indicates who or what performed the event.","","","","","","","","","",,,,,"",,,,"Immunization.practitioner",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
@@ -108,9 +108,9 @@ user contentmodifiers","",0,*,"","Y","Y","Extension
 ","When reaction started","Date of reaction to the immunization.","","","","","","","","","",,,,,"",,,,"Immunization.reaction.date",0,1,"","","OBX-14 (ideally this would be reported in an IAM segment, but IAM is not part of the HL7 v2 VXU message - most likely would appear in OBX segments if at all)",".effectiveTime"
 "Immunization.reaction.detail","","","",0,1,"","","","Reference {http://hl7.org/fhir/StructureDefinition/Observation}
 ","Additional information on reaction","Details of the reaction.","","","","","","","","","",,,,,"",,,,"Immunization.reaction.detail",0,1,"","","OBX-5",".value"
-"Immunization.reaction.reported","","","",1,1,"Y","","","boolean
+"Immunization.reaction.reported","","","",1,1,"","","","boolean
 ","Indicates self-reported reaction","Self-reported indicator.","","","","","","","","","",,,,,"",,,,"Immunization.reaction.reported",0,1,"","","reported","(no such concept seems to exist for allergy/adverse reaction in HL7 v2)",".participation[typeCode=INF].role[classCode=PAT] (this syntax for self-reported=true)"
-"Immunization.vaccinationProtocol","","","",0,*,"","","","BackboneElement
+"Immunization.vaccinationProtocol","","","",1,1,"Y","","","BackboneElement
 ","What protocol was followed","Contains information about the protocol(s) under which the vaccine was administered.","","","","","","","","","",,,,,"",,,,"Immunization.vaccinationProtocol",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
 ","(HL7 v2 doesn't seem to provide for this)","outboundRelationship[typeCode=INST].target[classCode=SBADM]"
 "Immunization.vaccinationProtocol.id","","","",0,1,"","","","string
@@ -131,9 +131,9 @@ user contentmodifiers","",0,*,"","Y","Y","Extension
 ","Name of vaccine series","One possible path to achieve presumed immunity against a disease - within the context of an authority.","","","","","","","","","",,,,,"",,,,"Immunization.vaccinationProtocol.series",0,1,"","","outboundRelationship[typeCode=INST].target[classCode=SBADM]"
 "Immunization.vaccinationProtocol.seriesDoses","","","",0,1,"","","","positiveInt
 ","Recommended number of doses for immunity","The recommended number of doses to achieve immunity.","","","","","","","","","",,,,,"",,,,"Immunization.vaccinationProtocol.seriesDoses",0,1,"","","outboundRelationship[typeCode=INST].target[classCode=SBADM].inboundRelationship[typeCode=COMP].source[classCode=SBADM].text"
-"Immunization.vaccinationProtocol.targetDisease","","","",1,*,"","","","CodeableConcept
+"Immunization.vaccinationProtocol.targetDisease","","","",1,1,"","","","CodeableConcept
 ","Disease immunized against","The targeted disease.","","","","","","","","","",,"example","The disease target of the vaccination protocol","http://hl7.org/fhir/ValueSet/vaccination-protocol-dose-target","",,,,"Immunization.vaccinationProtocol.targetDisease",1,*,"","","outboundRelationship.target[classCode=OBS].code"
-"Immunization.vaccinationProtocol.doseStatus","","","",1,1,"Y","","","CodeableConcept
+"Immunization.vaccinationProtocol.doseStatus","","","",1,1,"","","","CodeableConcept
 ","Indicates if dose counts towards immunity","Indicates if the immunization event should ""count"" against  the protocol.","May need to differentiate between status declarations by a provider vs. a CDS engine.","","","","","","","","",,"extensible","A bunch of example codes","ValueSet/doseStatus-codes","",,,,"Immunization.vaccinationProtocol.doseStatus",1,1,"","","doseStatus",".participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].playedRole[classCode=INGR].scopedRole.scoper[classCode=MMAT].playedRole[classCode=HLTHCHRT].participation[typeCode=SBJ].observation[classCode=OBS].value"
-"Immunization.vaccinationProtocol.doseStatusReason","","","",0,1,"","","","CodeableConcept
+"Immunization.vaccinationProtocol.doseStatusReason","","","",1,1,"Y","","","CodeableConcept
 ","Why dose does (not) count","Provides an explanation as to why an immunization event should or should not count against the protocol.","","","","","","","","","",,"extensible","A bunch of example codes","ValueSet/doseStatusReason-codes","",,,,"Immunization.vaccinationProtocol.doseStatusReason",0,1,"","",".participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].playedRole[classCode=INGR].scopedRole.scoper[classCode=MMAT].playedRole[classCode=HLTHCHRT].participation[typeCode=SBJ].observation[classCode=OBS].reasonCode"

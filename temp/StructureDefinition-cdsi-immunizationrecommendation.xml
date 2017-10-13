@@ -3,7 +3,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="cdsi-immunizationrecommendation"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> ImmunizationRecommendation<a name="ImmunizationRecommendation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding: 3px" title="This element has or is affected by some invariants">I</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.4">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.4">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="font-weight:bold">temp-1: </span>Identifier SHALL be greater than 5 characters</td></tr>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> ImmunizationRecommendation<a name="ImmunizationRecommendation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.4">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.4">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://www.fhir.org/guides/ig-template/StructureDefinition/cdsi-immunizationrecommendation"/>
@@ -87,13 +87,6 @@
         <expression value="contained.where((&#39;#&#39;+id in %resource.descendants().reference).not()).empty()"/>
         <xpath value="not(exists(for $id in f:contained/*/@id return $id[not(ancestor::f:contained/parent::*/descendant::f:reference/@value=concat(&#39;#&#39;, $id))]))"/>
         <source value="DomainResource"/>
-      </constraint>
-      <constraint>
-        <key value="temp-1"/>
-        <severity value="error"/>
-        <human value="Identifier SHALL be greater than 5 characters"/>
-        <expression value="Identifier.value.length()&gt;5"/>
-        <xpath value="f:Identifier/f:value/string-length(@value)&gt;5"/>
       </constraint>
       <mustSupport value="false"/>
       <mapping>
@@ -405,7 +398,7 @@
     </element>
     <element id="ImmunizationRecommendation.recommendation.extension">
       <path value="ImmunizationRecommendation.recommendation.extension"/>
-      <slicing id="17">
+      <slicing id="7">
         <discriminator>
           <type value="value"/>
           <path value="url"/>
@@ -618,7 +611,7 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
@@ -659,13 +652,13 @@
         <source value="Element"/>
       </constraint>
       <constraint>
-        <key value="temp-2"/>
+        <key value="imm-cds-1"/>
         <severity value="error"/>
         <human value="if recommendation.forecastStatus is one of (due, due later, not complete, overdue, consider, wavered, recommended but not required) then two dateCriterion elements are required: one with dateCriterion.code=earliest, and one with dateCriterion.code=recommended"/>
         <expression value="recommendation.where(($this.forecastStatus.coding.where(code = &#39;due&#39;) or $this.forecastStatus.coding.where(code = &#39;duelater&#39;)).not() or ($this.dateCriterion.code.coding.where(code = &#39;due&#39;) and $this.dateCriterion.code.coding.where(code = &#39;overdue&#39;))).count() = recommendation.count()"/>
         <xpath value="f:recommendation.dateCriterion/f:value/string-length(@value)&gt;5"/>
       </constraint>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <mapping>
         <identity value="v2"/>
         <map value="OBX-3: 30980-7 = Next dose recommended, 59777-3 = Latest next dose should be given, 59778-1 = Dose is overdue"/>
@@ -760,7 +753,7 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <binding>
         <strength value="extensible"/>
         <description value="a bunch of example codes"/>
@@ -795,7 +788,7 @@
       <type>
         <code value="dateTime"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <mapping>
         <identity value="v2"/>
         <map value="OBX-5"/>
@@ -1052,13 +1045,6 @@
   <differential>
     <element id="ImmunizationRecommendation">
       <path value="ImmunizationRecommendation"/>
-      <constraint>
-        <key value="temp-1"/>
-        <severity value="error"/>
-        <human value="Identifier SHALL be greater than 5 characters"/>
-        <expression value="Identifier.value.length()&gt;5"/>
-        <xpath value="f:Identifier/f:value/string-length(@value)&gt;5"/>
-      </constraint>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <mapping>
@@ -1089,7 +1075,7 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <binding>
         <strength value="extensible"/>
@@ -1107,13 +1093,13 @@
         <code value="BackboneElement"/>
       </type>
       <constraint>
-        <key value="temp-2"/>
+        <key value="imm-cds-1"/>
         <severity value="error"/>
         <human value="if recommendation.forecastStatus is one of (due, due later, not complete, overdue, consider, wavered, recommended but not required) then two dateCriterion elements are required: one with dateCriterion.code=earliest, and one with dateCriterion.code=recommended"/>
         <expression value="recommendation.where(($this.forecastStatus.coding.where(code = &#39;due&#39;) or $this.forecastStatus.coding.where(code = &#39;duelater&#39;)).not() or ($this.dateCriterion.code.coding.where(code = &#39;due&#39;) and $this.dateCriterion.code.coding.where(code = &#39;overdue&#39;))).count() = recommendation.count()"/>
         <xpath value="f:recommendation.dateCriterion/f:value/string-length(@value)&gt;5"/>
       </constraint>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <mapping>
         <identity value="quick"/>
@@ -1131,7 +1117,7 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <binding>
         <strength value="extensible"/>
@@ -1156,7 +1142,7 @@
       <type>
         <code value="dateTime"/>
       </type>
-      <mustSupport value="true"/>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <mapping>
         <identity value="quick"/>

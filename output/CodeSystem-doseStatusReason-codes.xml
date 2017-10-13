@@ -4,13 +4,13 @@
   <id value="doseStatusReason-codes"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Vaccination Protocol Dose Status Reason codes</h2><div><p>A bunch of example codes</p>
-</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes defines the following codes:</p><table class="codes"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>Reason1<a name="doseStatusReason-codes-Reason1"> </a></td><td>Reason1</td><td>Vaccine Dose Administered was administered after the Lot Number Expiration Date.</td></tr><tr><td>Reason2<a name="doseStatusReason-codes-Reason2"> </a></td><td>Reason2</td><td>Vaccine Dose Administered was deemed to be ineffective or sub-potent. (e.g. recalled, cold-chain break, partially administered).</td></tr><tr><td>Reason3<a name="doseStatusReason-codes-Reason3"> </a></td><td>Reason3</td><td>Vaccine Dose Administered was administered at too young of an age.</td></tr><tr><td>Reason4<a name="doseStatusReason-codes-Reason4"> </a></td><td>Reason4</td><td>Vaccine Dose Administered was administered too soon following a previous dose.</td></tr><tr><td>Reason5<a name="doseStatusReason-codes-Reason5"> </a></td><td>Reason5</td><td>Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict).</td></tr><tr><td>Reason6<a name="doseStatusReason-codes-Reason6"> </a></td><td>Reason6</td><td>Vaccine Dose Administered amount was less than the recommended amount.</td></tr><tr><td>Reason7<a name="doseStatusReason-codes-Reason7"> </a></td><td>Reason7</td><td>Vaccine Dose Administered was administered outside of an acceptable age range</td></tr></table></div>
+</div><p>This code system http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes defines the following codes:</p><table class="codes"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>Reason1<a name="doseStatusReason-codes-Reason1"> </a></td><td>Expired</td><td>Vaccine Dose Administered was administered after the Lot Number Expiration Date.</td></tr><tr><td>Reason2<a name="doseStatusReason-codes-Reason2"> </a></td><td>Ineffective</td><td>Vaccine Dose Administered was deemed to be ineffective or sub-potent. (e.g. recalled, cold-chain break, partially administered).</td></tr><tr><td>Reason3<a name="doseStatusReason-codes-Reason3"> </a></td><td>AgeTooOld</td><td>Vaccine Dose Administered was administered at too old of an age.</td></tr><tr><td>Reason4<a name="doseStatusReason-codes-Reason4"> </a></td><td>AgeTooYoung</td><td>Vaccine Dose Administered was administered at too young of an age.</td></tr><tr><td>Reason5<a name="doseStatusReason-codes-Reason5"> </a></td><td>IntervalTooShort</td><td>Vaccine Dose Administered was administered too soon following a previous dose.</td></tr><tr><td>Reason6<a name="doseStatusReason-codes-Reason6"> </a></td><td>LiveVirusConflict</td><td>Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict).</td></tr><tr><td>Reason7<a name="doseStatusReason-codes-Reason7"> </a></td><td>LessThenRecommended</td><td>Vaccine Dose Administered amount was less than the recommended amount.</td></tr><tr><td>Reason8<a name="doseStatusReason-codes-Reason8"> </a></td><td>InadvertentVaccine</td><td>Vaccine Product was administered outside of an acceptable age range</td></tr><tr><td>Reason9<a name="doseStatusReason-codes-Reason9"> </a></td><td>SeriesAlreadyComplete</td><td>Patient has already completed the vaccination schedule</td></tr></table></div>
   </text>
   <url value="http://www.fhir.org/guides/ig-template/CodeSystem/doseStatusReason-codes"/>
   <name value="Vaccination Protocol Dose Status Reason codes"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2017-05-25T15:05:26-04:00"/>
+  <date value="2017-10-10T15:43:12-04:00"/>
   <contact>
     <telecom>
       <system value="url"/>
@@ -25,37 +25,47 @@
   <content value="complete"/>
   <concept>
     <code value="Reason1"/>
-    <display value="Reason1"/>
+    <display value="Expired"/>
     <definition value="Vaccine Dose Administered was administered after the Lot Number Expiration Date."/>
   </concept>
   <concept>
     <code value="Reason2"/>
-    <display value="Reason2"/>
+    <display value="Ineffective"/>
     <definition value="Vaccine Dose Administered was deemed to be ineffective or sub-potent. (e.g. recalled, cold-chain break, partially administered)."/>
   </concept>
   <concept>
     <code value="Reason3"/>
-    <display value="Reason3"/>
-    <definition value="Vaccine Dose Administered was administered at too young of an age."/>
+    <display value="AgeTooOld"/>
+    <definition value="Vaccine Dose Administered was administered at too old of an age."/>
   </concept>
   <concept>
     <code value="Reason4"/>
-    <display value="Reason4"/>
-    <definition value="Vaccine Dose Administered was administered too soon following a previous dose."/>
+    <display value="AgeTooYoung"/>
+    <definition value="Vaccine Dose Administered was administered at too young of an age."/>
   </concept>
   <concept>
     <code value="Reason5"/>
-    <display value="Reason5"/>
-    <definition value="Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict)."/>
+    <display value="IntervalTooShort"/>
+    <definition value="Vaccine Dose Administered was administered too soon following a previous dose."/>
   </concept>
   <concept>
     <code value="Reason6"/>
-    <display value="Reason6"/>
-    <definition value="Vaccine Dose Administered amount was less than the recommended amount."/>
+    <display value="LiveVirusConflict"/>
+    <definition value="Vaccine Dose Administered was administered too close to another vaccine (e.g. live virus conflict)."/>
   </concept>
   <concept>
     <code value="Reason7"/>
-    <display value="Reason7"/>
-    <definition value="Vaccine Dose Administered was administered outside of an acceptable age range"/>
+    <display value="LessThenRecommended"/>
+    <definition value="Vaccine Dose Administered amount was less than the recommended amount."/>
+  </concept>
+  <concept>
+    <code value="Reason8"/>
+    <display value="InadvertentVaccine"/>
+    <definition value="Vaccine Product was administered outside of an acceptable age range"/>
+  </concept>
+  <concept>
+    <code value="Reason9"/>
+    <display value="SeriesAlreadyComplete"/>
+    <definition value="Patient has already completed the vaccination schedule"/>
   </concept>
 </CodeSystem>

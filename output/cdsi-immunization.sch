@@ -13,6 +13,11 @@
     <sch:title>f:Immunization</sch:title>
     <sch:rule context="f:Immunization">
       <sch:assert test="count(f:date) &gt;= 1">date: minimum cardinality of 'date' is 1</sch:assert>
+      <sch:assert test="count(f:manufacturer) &gt;= 1">manufacturer: minimum cardinality of 'manufacturer' is 1</sch:assert>
+      <sch:assert test="count(f:expirationDate) &gt;= 1">expirationDate: minimum cardinality of 'expirationDate' is 1</sch:assert>
+      <sch:assert test="count(f:doseQuantity) &gt;= 1">doseQuantity: minimum cardinality of 'doseQuantity' is 1</sch:assert>
+      <sch:assert test="count(f:vaccinationProtocol) &gt;= 1">vaccinationProtocol: minimum cardinality of 'vaccinationProtocol' is 1</sch:assert>
+      <sch:assert test="count(f:vaccinationProtocol) &lt;= 1">vaccinationProtocol: maximum cardinality of 'vaccinationProtocol' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -48,6 +53,13 @@
     <sch:title>Immunization.reaction</sch:title>
     <sch:rule context="f:Immunization/f:reaction">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Immunization/f:vaccinationProtocol</sch:title>
+    <sch:rule context="f:Immunization/f:vaccinationProtocol">
+      <sch:assert test="count(f:targetDisease) &lt;= 1">targetDisease: maximum cardinality of 'targetDisease' is 1</sch:assert>
+      <sch:assert test="count(f:doseStatusReason) &gt;= 1">doseStatusReason: minimum cardinality of 'doseStatusReason' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

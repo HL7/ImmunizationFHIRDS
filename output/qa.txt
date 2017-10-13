@@ -1,9 +1,9 @@
 ﻿Implementation Guide Template : Validation Results
 =========================================
 
-Generated Thu May 25 15:05:31 EDT 2017. FHIR version 3.1.0 for 3.1.0
+Generated Tue Oct 10 15:43:21 EDT 2017. FHIR version 3.1.0 for 3.1.0
 
- Build Errors : 72 / 0
+ Build Errors : 74 / 0
  /Users/indovina/richard/cdsi/resources/cdsi-forecast-operation : 0 / 0
  /Users/indovina/richard/cdsi/resources/cdsi-immunization-profile-spreadsheet : 7 / 1
  /Users/indovina/richard/cdsi/resources/cdsi-immunizationrecommendation-profile-spreadsheet : 10 / 1
@@ -40,11 +40,13 @@ Generated Thu May 25 15:05:31 EDT 2017. FHIR version 3.1.0 for 3.1.0
  * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/p/a at Line 119, column 111 ==> The link 'CodeSystem/doseStatusReason-codes.html' cannot be resolved
  * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 456 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason1' cannot be resolved
  * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 766 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason2' cannot be resolved
- * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1124 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason3' cannot be resolved
- * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1420 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason4' cannot be resolved
- * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1728 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason5' cannot be resolved
- * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 2057 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason6' cannot be resolved
- * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 2357 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason7' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1128 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason3' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1424 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason4' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 1724 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason5' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 2041 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason6' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 2380 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason7' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 2692 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason8' cannot be resolved
+ * error : /Users/indovina/richard/cdsi/output/ValueSet-dostStatusReason-codes.html#/html/head/body/div/div/div/div/div/div/table/tr/td/a at Line 119, column 3000 ==> The link 'CodeSystem/doseStatusReason-codes.html#doseStatusReason-codes-Reason9' cannot be resolved
  * error : /Users/indovina/richard/cdsi/output/ValueSet-doseStatusReason-codes.xml.html#/html/head/body/div/div/div/div/div/p/a at Line 74, column 12 ==> The link 'ValueSet-doseStatusReason-codes.html' cannot be resolved
  * error : /Users/indovina/richard/cdsi/output/ValueSet-forecastStatus-codes.html#/html/head/body/div/div/div/div/div/div/ul/li/a at Line 115, column 114 ==> The link 'CodeSystem/forecastStatus-codes.html' cannot be resolved
  * error : /Users/indovina/richard/cdsi/output/ValueSet-forecastStatus-codes.html#/html/head/body/div/div/div/div/div/div/p/a at Line 119, column 112 ==> The link 'CodeSystem/forecastStatus-codes.html' cannot be resolved
