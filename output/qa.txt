@@ -1,7 +1,7 @@
 ﻿Implementation Guide Template : Validation Results
 =========================================
 
-Generated Tue Oct 10 15:43:21 EDT 2017. FHIR version 3.1.0 for 3.1.0
+Generated Fri Oct 27 16:08:04 EDT 2017. FHIR version 3.1.0 for 3.1.0
 
  Build Errors : 74 / 0
  /Users/indovina/richard/cdsi/resources/cdsi-forecast-operation : 0 / 0

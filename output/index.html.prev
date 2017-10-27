@@ -127,7 +127,7 @@ This is the Continuous Integration Build of the Implementation Guide Template Im
 
 <p>processedFiles : number of files genrated by the build -   {{ site.data.fhir.processedFiles }}  = 187</p>
 
-<p>genDate : date of generation (so date stamps in the pages can match those in the conformance resources) -   {{ site.data.fhir.genDate }}  = Tue, Oct 10, 2017 15:43-0400</p>
+<p>genDate : date of generation (so date stamps in the pages can match those in the conformance resources) -   {{ site.data.fhir.genDate }}  = Fri, Oct 27, 2017 16:07-0400</p>
 
 <h3 id="introduction">Introduction</h3>
 

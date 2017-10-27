@@ -21,7 +21,7 @@
   fhir:ValueSet.url [ fhir:value "http://www.fhir.org/guides/ig-template/ValueSet/doseStatusReason-codes"];
   fhir:ValueSet.name [ fhir:value "Vaccination Protocol Dose Status Reason codes"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2017-10-10T15:43:12-04:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2017-10-27T16:07:56-04:00"^^xsd:dateTime];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
