@@ -9,7 +9,7 @@
 			<div>
 				<p>This is a Clinicial Decision Support Immunization Forecast Request operation. It provides a standardized request and response interfaces to Immunization Forecasters.</p>
 			</div>
-			<p>URL: [base]/Paramters/$cds-immunization-forecast</p>
+			<p>URL: [base]/Parameters/$cds-immunization-forecast</p>
 			<p>Parameters</p>
 			<table class="grid">
 				<tr>
