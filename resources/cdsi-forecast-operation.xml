@@ -93,7 +93,7 @@
 <!-- MDI
 	<url value="http://www.nist.gov/OperationDefinition/cdsi-forecast-operation"/>
 -->
-	<url value="http://www.fhir.org/guides/ig-template/OperationDefinition/cdsi-forecast-operation"/>
+	<url value="http://hl7.org/fhir/uv/cdsi/OperationDefinition/cdsi-forecast-operation"/>
 
 
 	<name value="CDSi Forecast"/>
