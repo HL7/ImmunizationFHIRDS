@@ -7,8 +7,9 @@
 		"output": "output",
 		"qa": "qa",
 		"txCache": "txCache",
-                "specification": "http://build.fhir.org"
+                "specification": "http://hl7.org/fhir/STU3"
 	},
+  "version" : "3.0.1",
 	"defaults": {
 		"Any": {
 			"template-format": "instance-template-format.html",
