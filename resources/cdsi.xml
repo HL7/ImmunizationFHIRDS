@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<id value="cdsi"/>
-	<url value="http://www.nist.gov/ImplementationGuide/cdsi"/>
+	<url value="http://hl7.org/fhir/uv/cdsi/ImplementationGuide/cdsi"/>
 	<version value="1"/>
 	<name value="CDSi"/>
 	<status value="draft"/>
