@@ -92,7 +92,7 @@
   "name": "USCoreR4",
   "dependencyList": [
     {
-      "package": "hl7.fhir.us.core.r4",
+      "package": "hl7.fhir.us.core",
       "name": "uscore",
       "location": "http://hl7.org/fhir/us/core",
       "version": "current"
