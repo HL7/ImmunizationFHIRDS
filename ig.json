@@ -1,32 +1,123 @@
 {
-	"tool": "jekyll",
-	"paths": {
-		"resources": "resources",
-		"pages": "pages",
-		"temp": "temp",
-		"output": "output",
-		"qa": "qa",
-		"txCache": "txCache",
-                "specification": "http://hl7.org/fhir/STU3"
-	},
-  "version" : "3.0.1",
-	"defaults": {
-		"Any": {
-			"template-format": "format.html",
-			"template-base": "base.html"
-		},
-		"StructureDefinition" : {
-			"template-base" : "sd.html"
-		}
-	},
-	"sct-edition" : "http://snomed.info/sct/731000124108",
-	"canonicalBase": "http://hl7.org/fhir/uv/cdsi",
-	"source": "cdsi.xml",
-	"spreadsheets" : [
-		"cdsi-immunization-profile-spreadsheet.xml",
-		"cdsi-immunizationrecommendation-profile-spreadsheet.xml",
-		"cdsi-patient-profile-spreadsheet.xml"
-	],
-	"resources": {
-	}
+  "do-transforms": "false",
+  "topofpage": "true",
+  "license": "CC0-1.0",
+  "igtemplate-dir": "C:/Users/richard.ettema/Documents/GitHub/ImmunizationFHIRDS/",
+  "gen-examples": "false",
+  "special-urls": [
+  ],
+  "npm-name": "hl7.fhir.uv.immds",
+  "publisher": "HL7 International - Public Health Work Group",
+  "fixed-business-version": "1.0.0",
+  "extraTemplates": [
+    "mappings"
+  ],
+  "status": "active",
+  "tool": "jekyll",
+  "jurisdiction": "US",
+  "title": "Immunization Decision Support Forecast",
+  "resources": {
+    "OperationDefinition/immds-forecast-operation": {
+      "base":"OperationDefinition-immds-forecast-operation.html",
+      "source": "operationdefinition/immds-forecast-operation.xml"
+    },
+    "CapabilityStatement/client": {
+      "base": "CapabilityStatement-client.html",
+      "source": "capabilitystatement/capabilitystatement-client.xml"
+    },
+    "CapabilityStatement/server": {
+      "base": "CapabilityStatement-server.html",
+      "source": "capabilitystatement/capabilitystatement-server.xml"
+    },
+    "Patient/patient-example": {
+      "base":"Patient-patient-example.html"
+    }
+  },
+  "mappings": "false",
+  "spreadsheets": [
+  ],
+  "source": "implementationguide/ig.xml",
+  "version": "4.0.0",
+  "broken-links": "warning",
+  "logging": [
+    "progress"
+  ],
+  "allviews": "true",
+  "working-dir": "C:/Users/richard.ettema/Documents/GitHub/ImmunizationTemp/",
+  "defaults": {
+    "CapabilityStatement": {
+      "template-base": "base.html"
+    },
+    "StructureDefinition": {
+      "template-base": "sd.html",
+      "template-mappings": "sd-mappings.html",
+      "template-defns": "sd-definitions.html"
+    },
+    "OperationDefinition": {
+      "template-base": "base.html"
+    },
+    "SearchParameter": {
+      "template-base": "base.html"
+    },
+    "ValueSet": {
+      "template-base": "base.html"
+    },
+    "Any": {
+      "template-format": "format.html",
+      "swagger": "true",
+      "template-base": "base.html"
+    },
+    "CodeSystem": {
+      "template-base": "base.html"
+    },
+    "ConceptMap": {
+      "template-base": "base.html"
+    },
+    "StructureMap": {
+      "template-base": "ex.html",
+      "profiles": false,
+      "script": false,
+      "content": false
+    }
+  },
+  "canonicalBase": "http://hl7.org/fhir/uv/immds",
+  "contact": [
+    {
+      "system": "url",
+      "value": "https://confluence.hl7.org/display/PHWG/Public+Health+Work+Group"
+    }
+  ],
+  "no-inactive-codes": "false",
+  "sct-edition": "http://snomed.info/sct/731000124108",
+  "name": "USCoreR4",
+  "dependencyList": [
+    {
+      "package": "hl7.fhir.us.core.r4",
+      "name": "uscore",
+      "location": "http://hl7.org/fhir/us/core",
+      "version": "current"
+    }
+  ],
+  "swagger": [
+    {
+      "mode": "single",
+      "capabilities": "server"
+    }
+  ],
+  "paths": {
+    "temp": "generated_output/temp",
+    "output": "output",
+    "txCache": "generated_output/txCache",
+    "qa": "generated_output/qa",
+    "specification": "http://hl7.org/fhir/R4",
+    "history" : "http://hl7.org/fhir/uv/immds/history.cfml",
+    "resources": [
+      "source/resources",
+      "source/examples"
+    ],
+    "pages": [
+      "framework",
+      "source/pages"
+    ]
+  }
 }

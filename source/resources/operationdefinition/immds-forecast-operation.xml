@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperationDefinition xmlns="http://hl7.org/fhir">
+	<id value="immds-forecast-operation"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h2>Immunization Decision Support Forecast</h2>
+			<p>OPERATION: ImmunizationDS Forecast</p>
+			<div>
+				<p>This is an Immunization Decision Support Forecast Request operation. It provides standardized request and response interfaces to Immunization Forecasters.</p>
+			</div>
+			<p>URL: [base]/$immds-forecast</p>
+			<p>Parameters</p>
+			<table class="grid">
+				<tr>
+					<td>
+						<b>Use</b>
+					</td>
+					<td>
+						<b>Name</b>
+					</td>
+					<td>
+						<b>Cardinality</b>
+					</td>
+					<td>
+						<b>Type</b>
+					</td>
+					<td>
+						<b>Binding</b>
+					</td>
+					<td>
+						<b>Documentation</b>
+					</td>
+				</tr>
+				<tr>
+					<td>IN</td>
+					<td>assessmentDate</td>
+					<td>1..1</td>
+					<td><a href="http://build.fhir.org/datatypes.html#date">date</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>The date on which to assess the forecast</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+
+
+					<td>IN</td>
+					<td>patient</td>
+					<td>1..1</td>
+					<td><a href="http://hl7.org/fhir/R4/patient.html">Patient</a></td>
+					<td>
+					</td>
+					<td>
+						<div>
+							<p>Patient information</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+
+					<td>IN</td>
+					<td>immunization</td>
+					<td>0..*</td>
+					<td><a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html">Immunization</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>Patient immunization history</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>OUT</td>
+					<td>evaluation</td>
+					<td>0..*</td>
+					<td><a href="http://hl7.org/fhir/R4/immunizationevaluation.html">ImmunizationEvaluation</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>The evaluation against a schedule</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>OUT</td>
+					<td>recommendation</td>
+					<td>1..1</td>
+					<td><a href="http://hl7.org/fhir/R4/immunization.html">ImmunizationRecommendation</a></td>
+					<td/>
+					<td>
+						<div>
+							<p>The immunization engine produced forecast</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div>
+
+			</div>
+		</div>
+	</text>
+	<url value="http://hl7.org/fhir/uv/immds/OperationDefinition/immds-forecast-operation"/>
+	<name value="ImmDSForecast"/>
+	<status value="draft"/>
+	<kind value="operation"/>
+	<date value="2019-06-26T13:47:00-05:00"/>
+	<publisher value="HL7 International - Medications / Immunizations"/>
+	<description value="This is an Immunization Decision Support Forecast Request operation. It provides standardized request and response interfaces to Immunization Forecasters."/>
+	<affectsState value="false"/>
+	<code value="immds-forecast"/>
+	<comment value="Pilot implemented in AEGIS WildFHIR FHIR test client and server - http://wildfhir.aegis.net/fhir4-0-0-gui"/>
+	<system value="true"/>
+	<type value="false"/>
+	<instance value="false"/>
+	<parameter>
+		<name value="assessmentDate"/>
+		<use value="in"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="The date on which to assess the forecast."/>
+		<type value="date"/>
+	</parameter>
+	<parameter>
+		<name value="patient"/>
+		<use value="in"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="Patient information"/>
+		<type value="Patient"/>
+	</parameter>
+	<parameter>
+		<name value="immunization"/>
+		<use value="in"/>
+		<min value="0"/>
+		<max value="*"/>
+		<documentation value="Patient immunization history"/>
+		<type value="Immunization"/>
+	</parameter>
+	<parameter>
+		<name value="evaluation"/>
+		<use value="out"/>
+		<min value="0"/>
+		<max value="*"/>
+		<documentation value="The evaluation against a schedule"/>
+		<type value="ImmunizationEvaluation"/>
+	</parameter>
+	<parameter>
+		<name value="recommendation"/>
+		<use value="out"/>
+		<min value="1"/>
+		<max value="1"/>
+		<documentation value="The immunization engine produced forecast"/>
+		<type value="ImmunizationRecommendation"/>
+	</parameter>
+</OperationDefinition>

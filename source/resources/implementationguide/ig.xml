@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+	<id value="ig" />
+	<url value="http://hl7.org/fhir/uv/immds/ImplementationGuide/ig"/>
+	<version value="1.0.0"/>
+	<name value="ImmDSForecast" />
+	<title value="Immunization Decision Support Forecast" />
+	<status value="active" />
+	<date value="2019-06-26"/>
+	<publisher value="HL7 International - Public Health Work Group"/>
+	<contact>
+		<!-- 0..* ContactDetail Contact details for the publisher -->
+		<telecom>
+			<system value="url"/>
+			<value value="https://confluence.hl7.org/display/PHWG/Public+Health+Work+Group"/>
+		</telecom>
+	</contact>
+	<copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+	<!-- 0..1 Use and/or publishing restrictions -->
+	<packageId value="hl7.fhir.uv.immds"/>
+	<!-- 0..1 NPM Package name for IG -->
+	<license value="CC0-1.0"/>
+	<!--*****HARDCODED********* 0..1 SPDX license code for this IG (or not-open-source) -->
+	<fhirVersion value="4.0.0"/>
+	<!-- 0..1 FHIR Version this Implementation Guide targets -->
+	<definition>
+		<!--  <grouping> -->
+		<!-- 0..* Grouping used to present related resources in the IG -->
+		<!--   <name value="[string]"/> -->
+		<!-- 1..1 Descriptive name for the package -->
+		<!--   <description value="[string]"/> -->
+		<!-- 0..1 Human readable text describing the package -->
+		<!-- </grouping> -->
+		<!-- <resource><reference><reference value="[type]/[id]"/></reference><name value="Test Example"/><description value="A test example to show how a implementation guide works"/><exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/patient"/>|<exampleBoolean value="true|false"/></resource>   -->
+		<!-- insert resources -->
+		<resource>
+			<reference>
+				<reference value="OperationDefinition/immds-forecast-operation"/>
+				<display value="Immunization Decision Support Forecast Operation"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CapabilityStatement/client"/>
+				<display value="Immunization Decision Support Forecast Client"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CapabilityStatement/server"/>
+				<display value="Immunization Decision Support Forecast server"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/patient-example"/>
+				<display value="Patient example"/>
+			</reference>
+			<exampleBoolean value="true"/>
+		</resource>
+		<page>
+			<nameUrl value="index.md"/>
+			<title value="Immunization Decision Support Forecast Homepage"/>
+			<generation value="markdown"/>
+		</page>
+	</definition>
+</ImplementationGuide>
