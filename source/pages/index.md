@@ -16,7 +16,7 @@ active: terminology
 
 ## Introduction
 
-The Immunization Decision Support Forecast Implementation Guide is based on [FHIR Version R4] and defines the minimum conformance requirements for implementations.  
+The Immunization Decision Support Forecast (ImmDS) Implementation Guide is based on [FHIR Version R4] and defines the minimum conformance requirements for implementations.  
 
 
 ----

@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "30980-7",
+  "display" : "Date vaccine due"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Date vaccine due",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59778-1",
+  "display" : "Date when overdue for immunization"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Date when overdue for immunization",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59777-3",
+  "display" : "Latest date to give immunization"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Latest date to give immunization",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "30981-5",
+  "display" : "Earliest date to give"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Earliest date to give",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

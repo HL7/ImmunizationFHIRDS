@@ -29,8 +29,11 @@
       "base": "CapabilityStatement-server.html",
       "source": "capabilitystatement/capabilitystatement-server.xml"
     },
-    "Patient/patient-example": {
-      "base":"Patient-patient-example.html"
+    "Parameters/parameters-in-example": {
+      "base":"Parameters-parameters-in-example.html"
+    },
+    "Parameters/parameters-out-example": {
+      "base":"Parameters-parameters-out-example.html"
     }
   },
   "mappings": "false",

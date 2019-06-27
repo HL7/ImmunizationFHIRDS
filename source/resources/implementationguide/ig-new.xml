@@ -67,8 +67,15 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/patient-example"/>
-        <display value="Patient example"/>
+        <reference value="Parameters/parameters-in-example"/>
+        <display value="Parameters in example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Parameters/parameters-out-example"/>
+        <display value="Parameters out example"/>
       </reference>
       <exampleBoolean value="true"/>
     </resource>

@@ -71,8 +71,15 @@
     },
     {
       "reference" : {
-        "reference" : "Patient/patient-example",
-        "display" : "Patient example"
+        "reference" : "Parameters/parameters-in-example",
+        "display" : "Parameters in example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Parameters/parameters-out-example",
+        "display" : "Parameters out example"
       },
       "exampleBoolean" : true
     }],

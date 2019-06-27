@@ -13,7 +13,7 @@
 	<format value="json"/>
 	<implementationGuide value="http://hl7.org/fhir/uv/immds/ImplementationGuide/ig"/>
 	<rest>
-		<mode value="server"/>
+		<mode value="client"/>
 		<resource>
 			<type value="Immunization"/>
 			<interaction>

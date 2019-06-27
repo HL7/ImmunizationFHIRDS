@@ -32,7 +32,7 @@ all the examples that are used in this Implementation Guide available for downlo
 
 ### All Examples
 
-Individual examples are also available for download and listed below:
+Individual examples are available for download and listed below:
 
 {% include example-list-generator.md %}
 
@@ -40,6 +40,6 @@ Individual examples are also available for download and listed below:
 
 ### Schematrons
 
-Schematrons are also available for download and listed below:
+Schematrons are available for download and listed below:
 
 {% include schematron-list-generator.md %}

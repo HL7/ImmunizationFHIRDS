@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters xmlns="http://hl7.org/fhir">
+	<id value="parameters-out-example"/>
+	<parameter>
+		<name value="recommendation"/>
+		<resource>
+			<ImmunizationRecommendation>
+				<id value="69c6d273-aa68-4cd1-9a61-8b9c6506e7cc"/>
+				<meta>
+					<versionId value="1"/>
+					<lastUpdated value="2019-06-27T11:55:25.772-04:00"/>
+				</meta>
+				<text>
+					<status value="generated"/>
+					<div xmlns="http://www.w3.org/1999/xhtml">Immunization Forecast Recommendation</div>
+				</text>
+				<contained>
+					<Patient>
+						<id value="patient-forecast-data"/>
+						<gender value="male"/>
+						<birthDate value="2019-04-28"/>
+					</Patient>
+				</contained>
+				<patient>
+					<reference value="#patient-forecast-data"/>
+				</patient>
+				<date value="2019-06-27"/>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="45"/>
+							<display value="HepB"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"/>
+							<code value="due"/>
+							<display value="Due"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-05-27T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2219-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-05-27T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="2"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="20"/>
+							<display value="DTaP"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2169-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="20"/>
+							<display value="DTaP, Tdap or Td"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2169-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="17"/>
+							<display value="Hib"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2024-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="152"/>
+							<display value="Pneumococcal"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2024-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="152"/>
+							<display value="PCV"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2024-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="89"/>
+							<display value="Polio"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2037-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="122"/>
+							<display value="Rotavirus"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-06-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-07-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2019-08-11T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-09T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="03"/>
+							<display value="MMR"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2020-08-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2069-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="21"/>
+							<display value="Varicella"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2020-08-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2038-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="108"/>
+							<display value="Meningococcal"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2030-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2032-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2041-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-06-23T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="85"/>
+							<display value="HepA"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2021-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2169-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2020-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="88"/>
+							<display value="Influenza"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2019-10-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2019-10-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2169-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2019-10-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+				<recommendation>
+					<vaccineCode>
+						<coding>
+							<system value="http://example.org/cdc/cvx/vaccine-code"/>
+							<code value="137"/>
+							<display value="HPV"/>
+						</coding>
+					</vaccineCode>
+					<forecastStatus>
+						<coding>
+							<system value="http://example.org/fhir/immunization-recommendation-status"/>
+							<code value="30980-7later"/>
+							<display value="Due Later"/>
+						</coding>
+					</forecastStatus>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30980-7"/>
+								<display value="Date vaccine due"/>
+							</coding>
+						</code>
+						<value value="2030-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59778-1"/>
+								<display value="Date when overdue for immunization"/>
+							</coding>
+						</code>
+						<value value="2032-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="59777-3"/>
+								<display value="Latest date to give immunization"/>
+							</coding>
+						</code>
+						<value value="2041-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<dateCriterion>
+						<code>
+							<coding>
+								<system value="http://loinc.org"/>
+								<code value="30981-5"/>
+								<display value="Earliest date to give"/>
+							</coding>
+						</code>
+						<value value="2028-04-28T00:00:00-04:00"/>
+					</dateCriterion>
+					<doseNumberPositiveInt value="1"/>
+				</recommendation>
+			</ImmunizationRecommendation>
+		</resource>
+	</parameter>
+</Parameters>

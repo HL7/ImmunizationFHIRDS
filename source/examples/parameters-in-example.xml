@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters xmlns="http://hl7.org/fhir">
+	<id value="parameters-in-example"/>
+	<parameter>
+		<name value="assessmentDate"/>
+		<valueDate value="2019-06-27"/>
+	</parameter>
+	<parameter>
+		<name value="patient"/>
+		<resource>
+			<Patient>
+				<id value="forecast-example"/>
+				<gender value="male"/>
+				<birthDate value="2019-04-28"/>
+			</Patient>
+		</resource>
+	</parameter>
+	<parameter>
+		<name value="immunization"/>
+		<resource>
+			<Immunization>
+				<id value="c9d3fd2e-cf34-44f8-aa68-4413a01c4153"/>
+				<meta>
+					<versionId value="1"/>
+					<lastUpdated value="2019-06-27T11:55:25.382-04:00"/>
+				</meta>
+				<contained>
+					<Patient>
+						<id value="patient-forecast-data"/>
+						<gender value="male"/>
+						<birthDate value="2019-04-28"/>
+					</Patient>
+				</contained>
+				<status value="completed"/>
+				<vaccineCode>
+					<coding>
+						<system value="http://hl7.org/fhir/sid/cvx"/>
+						<code value="08"/>
+						<display value="Hep B, adolescent or pediatric"/>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="#patient-forecast-data"/>
+				</patient>
+				<occurrenceDateTime value="2019-04-29"/>
+				<recorded value="2019-04-29T00:00:00-04:00"/>
+				<primarySource value="false"/>
+			</Immunization>
+		</resource>
+	</parameter>
+</Parameters>
