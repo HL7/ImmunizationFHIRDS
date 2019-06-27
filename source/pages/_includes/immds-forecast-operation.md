@@ -59,7 +59,7 @@ Content-Type: application/fhir+json;charset=utf-8
         "vaccineCode": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/v3/VaccineType",
+              "system": "http://hl7.org/fhir/sid/cvx",
               "code": "08",
               "display": "Hep B, adolescent or pediatric"
             }
@@ -68,6 +68,7 @@ Content-Type: application/fhir+json;charset=utf-8
         "patient": {
           "reference": "#patient-forecast-data"
         },
+        "occurrenceDateTime": "2019-04-29",
         "recorded": "2019-04-29T00:00:00-04:00",
         "primarySource": false
       }
@@ -115,6 +116,7 @@ Content-Type: application/fhir+json;charset=utf-8
         "patient": {
           "reference": "#patient-forecast-data"
         },
+        "date": "2019-06-27",
         "recommendation": [
           {
             "vaccineCode": [
@@ -131,9 +133,9 @@ Content-Type: application/fhir+json;charset=utf-8
             "forecastStatus": {
               "coding": [
                 {
-                  "system": "http://hl7.org/fhir/immunization-recommendation-status",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
                   "code": "due",
-                  "display": "due"
+                  "display": "Due"
                 }
               ]
             },
@@ -142,9 +144,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "due",
-                      "display": "due"
+                      "system": "http://loinc.org",
+                      "code": "30980-7",
+                      "display": "Date vaccine due"
                     }
                   ]
                 },
@@ -154,9 +156,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "overdue",
-                      "display": "overdue"
+                      "system": "http://loinc.org",
+                      "code": "59778-1",
+                      "display": "Date when overdue for immunization"
                     }
                   ]
                 },
@@ -166,9 +168,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "latest",
-                      "display": "latest"
+                      "system": "http://loinc.org",
+                      "code": "59777-3",
+                      "display": "Latest date to give immunization"
                     }
                   ]
                 },
@@ -178,9 +180,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://example.org/fhir/immunization-recommendation-date-criterion-extended",
-                      "code": "valid",
-                      "display": "valid"
+                      "system": "http://loinc.org",
+                      "code": "30981-5",
+                      "display": "Earliest date to give"
                     }
                   ]
                 },
@@ -215,9 +217,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "due",
-                      "display": "due"
+                      "system": "http://loinc.org",
+                      "code": "30980-7",
+                      "display": "Date vaccine due"
                     }
                   ]
                 },
@@ -227,9 +229,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "overdue",
-                      "display": "overdue"
+                      "system": "http://loinc.org",
+                      "code": "59778-1",
+                      "display": "Date when overdue for immunization"
                     }
                   ]
                 },
@@ -239,9 +241,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/immunization-recommendation-date-criterion",
-                      "code": "latest",
-                      "display": "latest"
+                      "system": "http://loinc.org",
+                      "code": "59777-3",
+                      "display": "Latest date to give immunization"
                     }
                   ]
                 },
@@ -251,9 +253,9 @@ Content-Type: application/fhir+json;charset=utf-8
                 "code": {
                   "coding": [
                     {
-                      "system": "http://example.org/fhir/immunization-recommendation-date-criterion-extended",
-                      "code": "valid",
-                      "display": "valid"
+                      "system": "http://loinc.org",
+                      "code": "30981-5",
+                      "display": "Earliest date to give"
                     }
                   ]
                 },
