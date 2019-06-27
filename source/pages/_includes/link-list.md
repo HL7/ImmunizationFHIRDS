@@ -20,3 +20,5 @@
 [FHIR ImmunizationEvaluation (R4)]: {{page.r4}}immunizationevaluation.html
 [FHIR ImmunizationRecommendation (R4)]: {{page.r4}}immunizationrecommendation.html
 [FHIR Patient (R4)]: {{page.r4}}patient.html
+[ImmDS Patient (R4)]: StructureDefinition-immds-patient.html
+[FHIR Data Absent Reason (R4)]: {{page.r4}}extension-data-absent-reason.html

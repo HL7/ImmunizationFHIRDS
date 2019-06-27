@@ -13,7 +13,7 @@ The following Profiles have been identified for use with this implementation gui
 
 |Resource Type|Profile Name|Link to R4 Profile|
 |---|---|---|
-|Patient|FHIR Patient Profile|[FHIR Patient (R4)]|
+|Patient|ImmDS Patient Profile|[ImmDS Patient (R4)]|
 |Immunization|US Core Immunization Profile|[US Core Immunization (R4)]|
 |ImmunizationEvaluation|FHIR ImmunizationEvaluation Profile|[FHIR ImmunizationEvaluation (R4)]|
 |ImmunizationRecommendation|FHIR ImmunizationRecommendation Profile|[FHIR ImmunizationRecommendation (R4)]|
@@ -29,9 +29,13 @@ include list-simple-profiles.xhtml
 
 ## Extensions
 
-No Extensions have been defined or identified for this implementation guide.
+The following [Extensions]({{site.data.fhir.path}}extensibility.html) have been explicitly identified for use with the Immunization Decision Support (ImmDS) Forecast implementation Guide from the [registry of standard extensions]({{site.data.fhir.path}}extensibility-registry.html) in the FHIR specification. Additional extensions may be registered and found on the HL7 FHIR registry at http://hl7.org/fhir/registry.
 
-<!-- Uncomment when extensions are defined
+|Extension Name|Link to R4 Extension|
+|---|---|
+|Data Absent Reason|[FHIR Data Absent Reason (R4)]|
+
+<!-- Uncomment when ImmDS extensions are defined
 The following [Extensions]({{site.data.fhir.path}}extensibility.html) have been defined as part of the Immunization Decision Support Forecast implementation Guide. A [registry of standard extensions]({{site.data.fhir.path}}extensibility-registry.html) can be found in the FHIR specification and additional extensions may be registered on the HL7 FHIR registry at http://hl7.org/fhir/registry.
 
 include list-simple-extensions.xhtml

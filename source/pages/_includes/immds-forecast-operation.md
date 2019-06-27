@@ -34,6 +34,53 @@ Content-Type: application/fhir+json;charset=utf-8
       "resource": {
         "resourceType": "Patient",
         "id": "forecast-example",
+        "meta" : {
+          "profile" : [
+            "http://hl7.org/fhir/uv/immds/StructureDefinition/immds-patient"
+          ]
+        },
+        "identifier" : [
+          {
+            "_system" : {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode" : "masked"
+                }
+              ]
+            },
+            "_value" : {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode" : "masked"
+                }
+              ]
+            }
+          }
+        ],
+        "name" : [
+          {
+            "_family" : {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode" : "masked"
+                }
+              ]
+            },
+            "_given" : [
+              {
+                "extension" : [
+                  {
+                    "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                    "valueCode" : "masked"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "gender": "male",
         "birthDate": "2019-04-28"
       }
@@ -51,6 +98,53 @@ Content-Type: application/fhir+json;charset=utf-8
           {
             "resourceType": "Patient",
             "id": "patient-forecast-data",
+            "meta" : {
+              "profile" : [
+                "http://hl7.org/fhir/uv/immds/StructureDefinition/immds-patient"
+              ]
+            },
+            "identifier" : [
+              {
+                "_system" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                },
+                "_value" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                }
+              }
+            ],
+            "name" : [
+              {
+                "_family" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                },
+                "_given" : [
+                  {
+                    "extension" : [
+                      {
+                        "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                        "valueCode" : "masked"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "gender": "male",
             "birthDate": "2019-04-28"
           }
@@ -109,6 +203,53 @@ Content-Type: application/fhir+json;charset=utf-8
           {
             "resourceType": "Patient",
             "id": "patient-forecast-data",
+            "meta" : {
+              "profile" : [
+                "http://hl7.org/fhir/uv/immds/StructureDefinition/immds-patient"
+              ]
+            },
+            "identifier" : [
+              {
+                "_system" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                },
+                "_value" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                }
+              }
+            ],
+            "name" : [
+              {
+                "_family" : {
+                  "extension" : [
+                    {
+                      "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                      "valueCode" : "masked"
+                    }
+                  ]
+                },
+                "_given" : [
+                  {
+                    "extension" : [
+                      {
+                        "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                        "valueCode" : "masked"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "gender": "male",
             "birthDate": "2019-04-28"
           }

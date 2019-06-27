@@ -42,6 +42,13 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/immds-patient"/>
+				<display value="Immunization Decision Support Forecast Patient"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="CapabilityStatement/client"/>
 				<display value="Immunization Decision Support Forecast Client"/>
 			</reference>
@@ -65,6 +72,13 @@
 			<reference>
 				<reference value="Parameters/parameters-out-example"/>
 				<display value="Parameters out example"/>
+			</reference>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/forecast-example"/>
+				<display value="Patient forecast example"/>
 			</reference>
 			<exampleBoolean value="true"/>
 		</resource>

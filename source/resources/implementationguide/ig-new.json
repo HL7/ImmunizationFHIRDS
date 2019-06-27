@@ -57,6 +57,13 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/immds-patient",
+        "display" : "Immunization Decision Support Forecast Patient"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "CapabilityStatement/client",
         "display" : "Immunization Decision Support Forecast Client"
       },
@@ -80,6 +87,13 @@
       "reference" : {
         "reference" : "Parameters/parameters-out-example",
         "display" : "Parameters out example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Patient/forecast-example",
+        "display" : "Patient forecast example"
       },
       "exampleBoolean" : true
     }],

@@ -21,6 +21,11 @@
       "base":"OperationDefinition-immds-forecast-operation.html",
       "source": "operationdefinition/immds-forecast-operation.xml"
     },
+    "StructureDefinition/immds-patient": {
+      "base": "StructureDefinition-immds-patient.html",
+      "defns": "StructureDefinition-immds-patient-definitions.html",
+      "source": "structuredefinition/structuredefinition-immds-patient.xml"
+    },
     "CapabilityStatement/client": {
       "base": "CapabilityStatement-client.html",
       "source": "capabilitystatement/capabilitystatement-client.xml"
@@ -34,6 +39,9 @@
     },
     "Parameters/parameters-out-example": {
       "base":"Parameters-parameters-out-example.html"
+    },
+    "Patient/forecast-example": {
+      "base":"Patient-forecast-example.html"
     }
   },
   "mappings": "false",
