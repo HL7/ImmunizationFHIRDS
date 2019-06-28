@@ -21,6 +21,16 @@
       "base":"OperationDefinition-immds-forecast-operation.html",
       "source": "operationdefinition/immds-forecast-operation.xml"
     },
+    "StructureDefinition/immds-immunizationevaluation": {
+      "base": "StructureDefinition-immds-immunizationevaluation.html",
+      "defns": "StructureDefinition-immds-immunizationevaluation-definitions.html",
+      "source": "structuredefinition/structuredefinition-immds-immunizationevaluation.xml"
+    },
+    "StructureDefinition/immds-immunizationrecommendation": {
+      "base": "StructureDefinition-immds-immunizationrecommendation.html",
+      "defns": "StructureDefinition-immds-immunizationrecommendation-definitions.html",
+      "source": "structuredefinition/structuredefinition-immds-immunizationrecommendation.xml"
+    },
     "StructureDefinition/immds-patient": {
       "base": "StructureDefinition-immds-patient.html",
       "defns": "StructureDefinition-immds-patient-definitions.html",

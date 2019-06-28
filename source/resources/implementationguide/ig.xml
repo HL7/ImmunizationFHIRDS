@@ -42,6 +42,20 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/immds-immunizationevaluation"/>
+				<display value="Immunization Decision Support Forecast ImmunizationEvaluation"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/immds-immunizationrecommendation"/>
+				<display value="Immunization Decision Support Forecast ImmunizationRecommendation"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/immds-patient"/>
 				<display value="Immunization Decision Support Forecast Patient"/>
 			</reference>

@@ -15,8 +15,8 @@ The following Profiles have been identified for use with this implementation gui
 |---|---|---|
 |Patient|ImmDS Patient Profile|[ImmDS Patient (R4)]|
 |Immunization|US Core Immunization Profile|[US Core Immunization (R4)]|
-|ImmunizationEvaluation|FHIR ImmunizationEvaluation Profile|[FHIR ImmunizationEvaluation (R4)]|
-|ImmunizationRecommendation|FHIR ImmunizationRecommendation Profile|[FHIR ImmunizationRecommendation (R4)]|
+|ImmunizationEvaluation|ImmDS ImmunizationEvaluation Profile|[ImmDS ImmunizationEvaluation (R4)]|
+|ImmunizationRecommendation|ImmDS ImmunizationRecommendation Profile|[ImmDS ImmunizationRecommendation (R4)]|
 
 
 <!-- Uncomment when profiles are defined

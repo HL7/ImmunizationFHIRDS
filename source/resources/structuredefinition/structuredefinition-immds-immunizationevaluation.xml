@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="immds-immunizationevaluation"/>
+	<url value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-immunizationevaluation"/>
+	<version value="1.0.0"/>
+	<name value="ImmDSImmunizationEvaluationProfile"/>
+	<title value="Immunization Decision Support ImmunizationEvaluation Profile"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2019-06-28T00:00:00+00:00"/>
+	<publisher value="HL7 International - Public Health Work Group"/>
+	<contact>
+		<!-- 0..* ContactDetail Contact details for the publisher -->
+		<telecom>
+			<system value="url"/>
+			<value value="https://confluence.hl7.org/display/PHWG/Public+Health+Work+Group"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the immunizationevaluation resource for the minimal set of data to perform the Immunization Decision Support Forecast operation."/>
+	<fhirVersion value="4.0.0"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="ImmunizationEvaluation"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="ImmunizationEvaluation">
+			<path value="ImmunizationEvaluation"/>
+			<short value="ImmDS Immunization evaluation information"/>
+			<definition value="Defines constraints and extensions on the immunizationevaluation resource for the minimal set of data to perform the Immunization Decision Support Forecast operation."/>
+			<min value="0"/>
+			<max value="*"/>
+			<mapping>
+				<identity value="workflow"/>
+				<map value="Event"/>
+			</mapping>
+			<mapping>
+				<identity value="v2"/>
+				<map value="RSP_K11"/>
+			</mapping>
+		</element>
+		<element id="ImmunizationEvaluation.date">
+			<path value="ImmunizationEvaluation.date"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="dateTime"/>
+			</type>
+		</element>
+		<element id="ImmunizationEvaluation.targetDisease">
+			<path value="ImmunizationEvaluation.targetDisease"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<isSummary value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The US Core CVX (vaccine administered) code system."/>
+				<valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx"/>
+			</binding>
+		</element>
+		<element id="ImmunizationEvaluation.doseStatus">
+			<path value="ImmunizationEvaluation.doseStatus"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<isSummary value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The status of the administered dose relative to the published recommendations for the target disease."/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/immunization-evaluation-dose-status"/>
+			</binding>
+		</element>
+		<element id="ImmunizationEvaluation.doseStatusReason">
+			<path value="ImmunizationEvaluation.doseStatusReason"/>
+			<definition value="While an extensible value set is provided for this element, there is not a broadly agreed upon value set to use. Implementations will likely make extensive use of the text element within the CodeableConcept data type to convey information."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The reason the dose status was assigned."/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/immunization-evaluation-dose-status-reason"/>
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="immds-immunizationrecommendation"/>
+	<url value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-immunizationrecommendation"/>
+	<version value="1.0.0"/>
+	<name value="ImmDSImmunizationRecommendationProfile"/>
+	<title value="Immunization Decision Support ImmunizationRecommendation Profile"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2019-06-28T00:00:00+00:00"/>
+	<publisher value="HL7 International - Public Health Work Group"/>
+	<contact>
+		<!-- 0..* ContactDetail Contact details for the publisher -->
+		<telecom>
+			<system value="url"/>
+			<value value="https://confluence.hl7.org/display/PHWG/Public+Health+Work+Group"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the immunizationrecommendation resource for the minimal set of data to perform the Immunization Decision Support Forecast operation."/>
+	<fhirVersion value="4.0.0"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="ImmunizationRecommendation"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="ImmunizationRecommendation">
+			<path value="ImmunizationRecommendation"/>
+			<short value="Guidance or advice relating to an immunization"/>
+			<definition value="Defines constraints and extensions on the immunizationrecommendation resource for the minimal set of data to perform the Immunization Decision Support Forecast operation."/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation">
+			<path value="ImmunizationRecommendation.recommendation"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.vaccineCode">
+			<path value="ImmunizationRecommendation.recommendation.vaccineCode"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The type of vaccine administered."/>
+				<valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx"/>
+			</binding>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.targetDisease">
+			<path value="ImmunizationRecommendation.recommendation.targetDisease"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The disease that the recommended vaccination targets."/>
+				<valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx"/>
+			</binding>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.contraindicatedVaccineCode">
+			<path value="ImmunizationRecommendation.recommendation.contraindicatedVaccineCode"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The type of vaccine administered."/>
+				<valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx"/>
+			</binding>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.forecastStatus">
+			<path value="ImmunizationRecommendation.recommendation.forecastStatus"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<isSummary value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The patient&#39;s status with respect to a vaccination protocol."/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/immunization-recommendation-status"/>
+			</binding>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.forecastReason">
+			<path value="ImmunizationRecommendation.recommendation.forecastReason"/>
+			<definition value="While an extensible value set is provided for this element, there is not a broadly agreed upon value set to use. Implementations will likely make extensive use of the text element within the CodeableConcept data type to convey information."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<description value="The reason for the patient&#39;s status with respect to a vaccination protocol."/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/immunization-recommendation-reason"/>
+			</binding>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.dateCriterion">
+			<path value="ImmunizationRecommendation.recommendation.dateCriterion"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="ImmunizationRecommendation.recommendation.dateCriterion.code">
+			<path value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<description value="Classifies date criterion with respect to conveying information about a patient&#39;s vaccination status (e.g. due date, latest to give date, etc.)."/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/immunization-recommendation-date-criterion"/>
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

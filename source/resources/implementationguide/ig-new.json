@@ -57,6 +57,20 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/immds-immunizationevaluation",
+        "display" : "Immunization Decision Support Forecast ImmunizationEvaluation"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/immds-immunizationrecommendation",
+        "display" : "Immunization Decision Support Forecast ImmunizationRecommendation"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/immds-patient",
         "display" : "Immunization Decision Support Forecast Patient"
       },

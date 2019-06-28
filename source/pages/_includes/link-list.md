@@ -16,9 +16,12 @@
 [Profiles]: profiles.html "Profiles and Extensions Page"
 [StructureDefinitions]: {{site.data.fhir.path}}structuredefinition.html
 [Terminology]: terminology.html "Terminology Page"
-[US Core Immunization (R4)]: {{page.us_r4}}StructureDefinition-us-core-immunization.html
 [FHIR ImmunizationEvaluation (R4)]: {{page.r4}}immunizationevaluation.html
 [FHIR ImmunizationRecommendation (R4)]: {{page.r4}}immunizationrecommendation.html
 [FHIR Patient (R4)]: {{page.r4}}patient.html
+[ImmDS ImmunizationEvaluation (R4)]: StructureDefinition-immds-immunizationevaluation.html
+[ImmDS ImmunizationRecommendation (R4)]: StructureDefinition-immds-immunizationrecommendation.html
 [ImmDS Patient (R4)]: StructureDefinition-immds-patient.html
 [FHIR Data Absent Reason (R4)]: {{page.r4}}extension-data-absent-reason.html
+[US Core Immunization (R4)]: {{page.us_r4}}StructureDefinition-us-core-immunization.html
+[US Core Vaccine Administered Value Set (CVX) (R4)]: {{page.us_r4}}ValueSet-us-core-vaccines-cvx.html
