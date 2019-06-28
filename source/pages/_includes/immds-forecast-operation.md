@@ -8,7 +8,7 @@ The operation is invoked using the POST Syntax with the Parameters payload as fo
 
 ### Example
 
-**Request the immunization forecast assessed on 2019-06-04 for a patient**
+**Request the immunization forecast assessed on 2019-06-27 for a patient**
 
 POST [base]/$immds-forecast
 
