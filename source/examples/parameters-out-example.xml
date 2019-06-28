@@ -120,7 +120,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -177,7 +177,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -234,7 +234,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -291,7 +291,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -348,7 +348,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -405,7 +405,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -462,7 +462,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -519,7 +519,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -576,7 +576,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -633,7 +633,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -690,7 +690,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -747,7 +747,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
@@ -804,7 +804,7 @@
 					<forecastStatus>
 						<coding>
 							<system value="http://example.org/fhir/immunization-recommendation-status"/>
-							<code value="30980-7later"/>
+							<code value="duelater"/>
 							<display value="Due Later"/>
 						</coding>
 					</forecastStatus>
