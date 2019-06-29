@@ -41,6 +41,8 @@
 		</element>
 		<element id="ImmunizationEvaluation.date">
 			<path value="ImmunizationEvaluation.date"/>
+			<short value="Date evaluation was performed"/>
+			<definition value="The date the evaluation of the vaccine administration event was performed."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
@@ -49,6 +51,8 @@
 		</element>
 		<element id="ImmunizationEvaluation.targetDisease">
 			<path value="ImmunizationEvaluation.targetDisease"/>
+			<short value="Evaluation target disease"/>
+			<definition value="The vaccine preventable disease the dose is being evaluated against."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
@@ -63,6 +67,8 @@
 		</element>
 		<element id="ImmunizationEvaluation.doseStatus">
 			<path value="ImmunizationEvaluation.doseStatus"/>
+			<short value="Status of the dose relative to published recommendations"/>
+			<definition value="Indicates if the dose is valid or not valid with respect to the published recommendations."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
@@ -77,6 +83,7 @@
 		</element>
 		<element id="ImmunizationEvaluation.doseStatusReason">
 			<path value="ImmunizationEvaluation.doseStatusReason"/>
+			<short value="Reason for the dose status"/>
 			<definition value="While an extensible value set is provided for this element, there is not a broadly agreed upon value set to use. Implementations will likely make extensive use of the text element within the CodeableConcept data type to convey information."/>
 			<min value="0"/>
 			<max value="*"/>

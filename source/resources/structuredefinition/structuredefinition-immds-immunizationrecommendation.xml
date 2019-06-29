@@ -33,6 +33,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation">
 			<path value="ImmunizationRecommendation.recommendation"/>
+			<short value="Vaccine administration recommendations"/>
+			<definition value="Vaccine administration recommendations."/>
 			<min value="1"/>
 			<max value="*"/>
 			<type>
@@ -41,6 +43,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.vaccineCode">
 			<path value="ImmunizationRecommendation.recommendation.vaccineCode"/>
+			<short value="Vaccine  or vaccine group recommendation applies to"/>
+			<definition value="Vaccine(s) or vaccine group that pertain to the recommendation."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -54,6 +58,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.targetDisease">
 			<path value="ImmunizationRecommendation.recommendation.targetDisease"/>
+			<short value="Disease to be immunized against"/>
+			<definition value="The targeted disease for the recommendation."/>
 			<min value="0"/>
 			<max value="1"/>
 			<type>
@@ -67,6 +73,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.contraindicatedVaccineCode">
 			<path value="ImmunizationRecommendation.recommendation.contraindicatedVaccineCode"/>
+			<short value="Vaccine which is contraindicated to fulfill the recommendation"/>
+			<definition value="Vaccine(s) which should not be used to fulfill the recommendation."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -80,6 +88,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.forecastStatus">
 			<path value="ImmunizationRecommendation.recommendation.forecastStatus"/>
+			<short value="Vaccine recommendation status"/>
+			<definition value="Indicates the patient status with respect to the path to immunity for the target disease."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
@@ -94,6 +104,7 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.forecastReason">
 			<path value="ImmunizationRecommendation.recommendation.forecastReason"/>
+			<short value="Vaccine administration status reason"/>
 			<definition value="While an extensible value set is provided for this element, there is not a broadly agreed upon value set to use. Implementations will likely make extensive use of the text element within the CodeableConcept data type to convey information."/>
 			<min value="0"/>
 			<max value="*"/>
@@ -108,6 +119,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.dateCriterion">
 			<path value="ImmunizationRecommendation.recommendation.dateCriterion"/>
+			<short value="Dates governing proposed immunization"/>
+			<definition value="Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -116,6 +129,8 @@
 		</element>
 		<element id="ImmunizationRecommendation.recommendation.dateCriterion.code">
 			<path value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
+			<short value="Type of date"/>
+			<definition value="Date classification of recommendation.  For example, earliest date to give, latest date to give, etc."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
