@@ -54,18 +54,4 @@ This use case describes a typical public health function found within IIS produc
 
 <p>&nbsp;</p>
 
-**Summary of FHIR Artifacts**
-
-## FHIR Resource Overview
-
-### Resources supported for this use case:
-{:.no_toc}
-
-|Resource Type|Profile Name|Link to R4 Profile|
-|---|---|---|
-|Patient|FHIR Patient Profile|[FHIR Patient (R4)]|
-|Immunization|US Core Immunization Profile|[US Core Immunization (R4)]|
-|Observation|FHIR ImmunizationEvaluation Profile|[FHIR ImmunizationEvaluation (R4)]|
-|Observation|FHIR ImmunizationRecommendation Profile|[FHIR ImmunizationRecommendation (R4)]|
-
 {% include link-list.md %}

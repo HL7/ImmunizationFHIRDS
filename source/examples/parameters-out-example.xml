@@ -9,6 +9,7 @@
 				<meta>
 					<versionId value="1"/>
 					<lastUpdated value="2019-06-27T11:55:25.772-04:00"/>
+					<profile value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-immunizationrecommendation"/>
 				</meta>
 				<text>
 					<status value="generated"/>

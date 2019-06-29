@@ -88,6 +88,27 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Immunization/immunization-forecast-example"/>
+        <display value="Immunization forecast example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ImmunizationEvaluation/immunizationevaluation-forecast-example"/>
+        <display value="ImmunizationEvaluation forecast example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ImmunizationRecommendation/immunizationrecommendation-forecast-example"/>
+        <display value="ImmunizationRecommendation forecast example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Parameters/parameters-in-example"/>
         <display value="Parameters in example"/>
       </reference>

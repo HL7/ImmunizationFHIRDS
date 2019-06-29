@@ -44,6 +44,15 @@
       "base": "CapabilityStatement-server.html",
       "source": "capabilitystatement/capabilitystatement-server.xml"
     },
+    "Immunization/immunization-forecast-example": {
+      "base":"Immunization-immunization-forecast-example.html"
+    },
+    "ImmunizationEvaluation/immunizationevaluation-forecast-example": {
+      "base":"ImmunizationEvaluation-immunizationevaluation-forecast-example.html"
+    },
+    "ImmunizationRecommendation/immunizationrecommendation-forecast-example": {
+      "base":"ImmunizationRecommendation-immunizationrecommendation-forecast-example.html"
+    },
     "Parameters/parameters-in-example": {
       "base":"Parameters-parameters-in-example.html"
     },

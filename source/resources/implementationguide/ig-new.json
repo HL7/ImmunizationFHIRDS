@@ -92,6 +92,27 @@
     },
     {
       "reference" : {
+        "reference" : "Immunization/immunization-forecast-example",
+        "display" : "Immunization forecast example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "ImmunizationEvaluation/immunizationevaluation-forecast-example",
+        "display" : "ImmunizationEvaluation forecast example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "ImmunizationRecommendation/immunizationrecommendation-forecast-example",
+        "display" : "ImmunizationRecommendation forecast example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
         "reference" : "Parameters/parameters-in-example",
         "display" : "Parameters in example"
       },
