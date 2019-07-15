@@ -22,7 +22,7 @@
   "name" : "ImmDSForecast",
   "title" : "Immunization Decision Support Forecast",
   "status" : "active",
-  "date" : "2019-06-26T00:00:00-04:00",
+  "date" : "2019-07-15T00:00:00-04:00",
   "publisher" : "HL7 International - Public Health Work Group",
   "contact" : [{
     "telecom" : [{
@@ -133,9 +133,79 @@
       "exampleBoolean" : true
     }],
     "page" : {
-      "nameUrl" : "index.md",
-      "title" : "Immunization Decision Support Forecast Homepage",
-      "generation" : "markdown"
+      "nameUrl" : "index.html",
+      "title" : "Home",
+      "generation" : "markdown",
+      "page" : [{
+        "nameUrl" : "guidance.html",
+        "title" : "Guidance",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "usecases.html",
+        "title" : "Use Cases",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "profiles.html",
+        "title" : "Profiles and Extensions",
+        "generation" : "markdown",
+        "page" : [{
+          "nameUrl" : "StructureDefinition-immds-patient.html",
+          "title" : "StructureDefinition ImmDS Patient (R4)",
+          "generation" : "generated"
+        },
+        {
+          "nameUrl" : "StructureDefinition-immds-immunizationevaluation.html",
+          "title" : "StructureDefinition ImmDS ImmunizationEvaluation (R4)",
+          "generation" : "generated"
+        },
+        {
+          "nameUrl" : "StructureDefinition-immds-immunizationrecommendation.html",
+          "title" : "StructureDefinition ImmDS ImmunizationRecommendation (R4)",
+          "generation" : "generated"
+        }]
+      },
+      {
+        "nameUrl" : "operations.html",
+        "title" : "Operations",
+        "generation" : "markdown",
+        "page" : [{
+          "nameUrl" : "OperationDefinition-immds-forecast-operation.html",
+          "title" : "OperationDefinition ImmunizationDS Forecast",
+          "generation" : "generated"
+        }]
+      },
+      {
+        "nameUrl" : "terminology.html",
+        "title" : "Terminology",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "CapabilityStatement-server.html",
+        "title" : "CapabilityStatement server",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "CapabilityStatement-client.html",
+        "title" : "CapabilityStatement client",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "security.html",
+        "title" : "Security",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "toc.html",
+        "title" : "Table of Contents",
+        "generation" : "html"
+      }]
     },
     "parameter" : [{
       "code" : "apply",

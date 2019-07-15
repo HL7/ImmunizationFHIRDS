@@ -19,7 +19,7 @@
   <name value="ImmDSForecast"/>
   <title value="Immunization Decision Support Forecast"/>
   <status value="active"/>
-  <date value="2019-06-26T00:00:00-04:00"/>
+  <date value="2019-07-15T00:00:00-04:00"/>
   <publisher value="HL7 International - Public Health Work Group"/>
   <contact>
     <telecom>
@@ -129,9 +129,79 @@
       <exampleBoolean value="true"/>
     </resource>
     <page>
-      <nameUrl value="index.md"/>
-      <title value="Immunization Decision Support Forecast Homepage"/>
+      <nameUrl value="index.html"/>
+      <title value="Home"/>
       <generation value="markdown"/>
+      <page>
+        <nameUrl value="guidance.html"/>
+        <title value="Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles and Extensions"/>
+        <generation value="markdown"/>
+        <page>
+          <nameUrl value="StructureDefinition-immds-patient.html"/>
+          <title value="StructureDefinition ImmDS Patient (R4)"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="StructureDefinition-immds-immunizationevaluation.html"/>
+          <title value="StructureDefinition ImmDS ImmunizationEvaluation (R4)"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="StructureDefinition-immds-immunizationrecommendation.html"/>
+          <title value="StructureDefinition ImmDS ImmunizationRecommendation (R4)"/>
+          <generation value="generated"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="operations.html"/>
+        <title value="Operations"/>
+        <generation value="markdown"/>
+        <page>
+          <nameUrl value="OperationDefinition-immds-forecast-operation.html"/>
+          <title value="OperationDefinition ImmunizationDS Forecast"/>
+          <generation value="generated"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="CapabilityStatement-server.html"/>
+        <title value="CapabilityStatement server"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="CapabilityStatement-client.html"/>
+        <title value="CapabilityStatement client"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="security.html"/>
+        <title value="Security"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="toc.html"/>
+        <title value="Table of Contents"/>
+        <generation value="html"/>
+      </page>
     </page>
     <parameter>
       <code value="apply"/>

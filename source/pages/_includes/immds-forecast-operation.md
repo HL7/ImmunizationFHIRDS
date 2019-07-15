@@ -1,4 +1,4 @@
-source file: pages/_includes/immds-forecast.md
+source file: pages/_includes/immds-forecast-operation.md
 
 The operation is invoked using the POST Syntax with the Parameters payload as follows:
 

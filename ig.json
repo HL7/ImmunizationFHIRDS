@@ -63,7 +63,6 @@
       "base":"Patient-forecast-example.html"
     }
   },
-  "mappings": "false",
   "spreadsheets": [
   ],
   "source": "implementationguide/ig.xml",
@@ -87,6 +86,9 @@
       "template-base": "base.html"
     },
     "SearchParameter": {
+      "template-base": "base.html"
+    },
+    "TestScript": {
       "template-base": "base.html"
     },
     "ValueSet": {
