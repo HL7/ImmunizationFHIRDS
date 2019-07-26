@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="immds-immunizationevaluation"/>
 	<url value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-immunizationevaluation"/>
-	<version value="1.0.0"/>
+	<version value="0.2.0"/>
 	<name value="ImmDSImmunizationEvaluationProfile"/>
 	<title value="Immunization Decision Support ImmunizationEvaluation Profile"/>
 	<status value="active"/>

@@ -2,7 +2,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="ig" />
 	<url value="http://hl7.org/fhir/uv/immds/ImplementationGuide/ig"/>
-	<version value="1.0.0"/>
+	<version value="0.2.0"/>
 	<name value="ImmDSForecast" />
 	<title value="Immunization Decision Support Forecast" />
 	<status value="active" />
