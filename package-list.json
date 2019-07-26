@@ -14,6 +14,15 @@
       "current": true
     },
     {
+      "version": "0.2.0",
+      "fhir-version": "4.0.0",
+      "date": "2019-07-26",
+      "desc": "Second ballot (Draft for Comment)",
+      "path": "http://hl7.org/fhir/uv/immds/2019Sep",
+      "status": "ballot",
+      "sequence": "STU1"
+    },
+    {
       "version": "0.1.0",
       "fhir-version": "3.0.1",
       "date": "2018-01-01",

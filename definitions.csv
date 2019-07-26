@@ -12,7 +12,7 @@ extensions,
 fixed-business-version,0.2.0
 gen-examples,FALSE
 igtemplate-dir,C:/Users/richard.ettema/Documents/GitHub/ImmunizationFHIRDS/
-jurisdiction,US
+jurisdiction,UV
 logging,progress
 mappings,FALSE
 no-inactive-codes,FALSE
