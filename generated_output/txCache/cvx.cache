@@ -1,8 +1,7 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/cvx",
-  "code" : "08",
-  "display" : "Hep B, adolescent or pediatric"
+  "code" : "08"
 }, "valueSet" :null, "lang":"null"}####
 v: {
   "display" : "Hep B, adolescent or pediatric",
@@ -720,7 +719,8 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/cvx",
-  "code" : "08"
+  "code" : "08",
+  "display" : "Hep B, adolescent or pediatric"
 }, "valueSet" :null, "lang":"null"}####
 v: {
   "display" : "Hep B, adolescent or pediatric",

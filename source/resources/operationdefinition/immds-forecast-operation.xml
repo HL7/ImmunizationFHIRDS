@@ -109,6 +109,13 @@
 	<date value="2019-06-26T13:47:00-05:00"/>
 	<publisher value="HL7 International - Medications / Immunizations"/>
 	<description value="This is an Immunization Decision Support Forecast Request operation. It provides standardized request and response interfaces to Immunization Forecasters."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="USA"/>
+			<display value="United States of America"/>
+		</coding>
+	</jurisdiction>
 	<affectsState value="false"/>
 	<code value="immds-forecast"/>
 	<comment value="Pilot implemented in AEGIS WildFHIR FHIR test client and server - http://wildfhir.aegis.net/fhir4-0-0-gui"/>

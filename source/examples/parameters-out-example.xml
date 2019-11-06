@@ -15,42 +15,8 @@
 					<status value="generated"/>
 					<div xmlns="http://www.w3.org/1999/xhtml">Immunization Forecast Recommendation</div>
 				</text>
-				<contained>
-					<Patient>
-						<id value="patient-forecast-data"/>
-						<meta>
-							<profile value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-patient"/>
-						</meta>
-						<identifier>
-							<system>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</system>
-							<value>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</value>
-						</identifier>
-						<name>
-							<family>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</family>
-							<given>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</given>
-						</name>
-						<gender value="male"/>
-						<birthDate value="2019-04-28"/>
-					</Patient>
-				</contained>
 				<patient>
-					<reference value="#patient-forecast-data"/>
+					<reference value="Patient/forecast-example"/>
 				</patient>
 				<date value="2019-06-27"/>
 				<recommendation>

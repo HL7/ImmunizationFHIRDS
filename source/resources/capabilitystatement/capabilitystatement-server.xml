@@ -7,8 +7,15 @@
 	<date value="2019-06-26"/>
 	<publisher value="HL7 International - Medications / Immunizations"/>
 	<description value="This resource defines the expected capabilities of an Immunization Decision Support Forecast server."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="USA"/>
+			<display value="United States of America"/>
+		</coding>
+	</jurisdiction>
 	<kind value="requirements"/>
-	<fhirVersion value="4.0.0"/>
+	<fhirVersion value="4.0.1"/>
 	<format value="xml"/>
 	<format value="json"/>
 	<implementationGuide value="http://hl7.org/fhir/uv/immds/ImplementationGuide/ig"/>

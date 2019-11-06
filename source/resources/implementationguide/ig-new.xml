@@ -36,8 +36,8 @@
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
   <packageId value="hl7.fhir.uv.immds"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="4.0.0"/>
-  <fhirVersion value="4.0.0"/>
+  <fhirVersion value="4.0.1"/>
+  <fhirVersion value="4.0.1"/>
   <dependsOn id="uscore">
     <uri value="http://hl7.org/fhir/us/core"/>
     <packageId value="hl7.fhir.us.core"/>

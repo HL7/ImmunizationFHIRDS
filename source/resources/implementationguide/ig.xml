@@ -15,13 +15,20 @@
 			<value value="https://confluence.hl7.org/display/PHWG/Public+Health+Work+Group"/>
 		</telecom>
 	</contact>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="USA"/>
+			<display value="United States of America"/>
+		</coding>
+	</jurisdiction>
 	<copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
 	<!-- 0..1 Use and/or publishing restrictions -->
 	<packageId value="hl7.fhir.uv.immds"/>
 	<!-- 0..1 NPM Package name for IG -->
 	<license value="CC0-1.0"/>
 	<!--*****HARDCODED********* 0..1 SPDX license code for this IG (or not-open-source) -->
-	<fhirVersion value="4.0.0"/>
+	<fhirVersion value="4.0.1"/>
 	<!-- 0..1 FHIR Version this Implementation Guide targets -->
 	<definition>
 		<!--  <grouping> -->

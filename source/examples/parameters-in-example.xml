@@ -52,40 +52,6 @@
 					<lastUpdated value="2019-06-27T11:55:25.382-04:00"/>
 					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"/>
 				</meta>
-				<contained>
-					<Patient>
-						<id value="patient-forecast-data"/>
-						<meta>
-							<profile value="http://hl7.org/fhir/uv/immds/StructureDefinition/immds-patient"/>
-						</meta>
-						<identifier>
-							<system>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</system>
-							<value>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</value>
-						</identifier>
-						<name>
-							<family>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</family>
-							<given>
-								<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-									<valueCode value="masked"/>
-								</extension>
-							</given>
-						</name>
-						<gender value="male"/>
-						<birthDate value="2019-04-28"/>
-					</Patient>
-				</contained>
 				<status value="completed"/>
 				<vaccineCode>
 					<coding>
@@ -95,7 +61,7 @@
 					</coding>
 				</vaccineCode>
 				<patient>
-					<reference value="#patient-forecast-data"/>
+					<reference value="Patient/forecast-example"/>
 				</patient>
 				<occurrenceDateTime value="2019-04-29"/>
 				<recorded value="2019-04-29T00:00:00-04:00"/>
