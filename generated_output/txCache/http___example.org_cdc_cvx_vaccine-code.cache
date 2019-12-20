@@ -119,3 +119,277 @@ v: {
   "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known for the code \"137\"; The code provided (http://example.org/cdc/cvx/vaccine-code#137) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "45"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"45\"); The code provided (http://example.org/cdc/cvx/vaccine-code#45) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "20"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"20\"); The code provided (http://example.org/cdc/cvx/vaccine-code#20) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "17"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"17\"); The code provided (http://example.org/cdc/cvx/vaccine-code#17) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "152"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"152\"); The code provided (http://example.org/cdc/cvx/vaccine-code#152) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "89"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"89\"); The code provided (http://example.org/cdc/cvx/vaccine-code#89) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "122"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"122\"); The code provided (http://example.org/cdc/cvx/vaccine-code#122) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "03"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"03\"); The code provided (http://example.org/cdc/cvx/vaccine-code#03) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "21"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"21\"); The code provided (http://example.org/cdc/cvx/vaccine-code#21) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "108"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"108\"); The code provided (http://example.org/cdc/cvx/vaccine-code#108) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "85"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"85\"); The code provided (http://example.org/cdc/cvx/vaccine-code#85) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "88"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"88\"); The code provided (http://example.org/cdc/cvx/vaccine-code#88) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "137"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"137\"); The code provided (http://example.org/cdc/cvx/vaccine-code#137) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "45",
+  "display" : "HepB"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"45\"); The code provided (http://example.org/cdc/cvx/vaccine-code#45) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "20",
+  "display" : "DTaP"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"20\"); The code provided (http://example.org/cdc/cvx/vaccine-code#20) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "20",
+  "display" : "DTaP, Tdap or Td"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"20\"); The code provided (http://example.org/cdc/cvx/vaccine-code#20) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "17",
+  "display" : "Hib"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"17\"); The code provided (http://example.org/cdc/cvx/vaccine-code#17) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "152",
+  "display" : "Pneumococcal"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"152\"); The code provided (http://example.org/cdc/cvx/vaccine-code#152) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "152",
+  "display" : "PCV"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"152\"); The code provided (http://example.org/cdc/cvx/vaccine-code#152) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "89",
+  "display" : "Polio"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"89\"); The code provided (http://example.org/cdc/cvx/vaccine-code#89) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "122",
+  "display" : "Rotavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"122\"); The code provided (http://example.org/cdc/cvx/vaccine-code#122) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "03",
+  "display" : "MMR"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"03\"); The code provided (http://example.org/cdc/cvx/vaccine-code#03) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "21",
+  "display" : "Varicella"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"21\"); The code provided (http://example.org/cdc/cvx/vaccine-code#21) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "108",
+  "display" : "Meningococcal"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"108\"); The code provided (http://example.org/cdc/cvx/vaccine-code#108) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "85",
+  "display" : "HepA"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"85\"); The code provided (http://example.org/cdc/cvx/vaccine-code#85) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "88",
+  "display" : "Influenza"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"88\"); The code provided (http://example.org/cdc/cvx/vaccine-code#88) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/cdc/cvx/vaccine-code",
+  "code" : "137",
+  "display" : "HPV"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/cdc/cvx/vaccine-code\" is not known (encountered paired with code = \"137\"); The code provided (http://example.org/cdc/cvx/vaccine-code#137) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

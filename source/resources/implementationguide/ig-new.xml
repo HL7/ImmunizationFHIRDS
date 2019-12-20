@@ -3,23 +3,23 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Users\richard.ettema\Documents\GitHub\ImmunizationFHIRDS\source\resources"/>
+    <valueString value="C:\dev\fhir\ImmunizationFHIRDSMaster\source\resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Users\richard.ettema\Documents\GitHub\ImmunizationFHIRDS\source\examples"/>
+    <valueString value="C:\dev\fhir\ImmunizationFHIRDSMaster\source\examples"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\Users\richard.ettema\Documents\GitHub\ImmunizationFHIRDS\framework"/>
+    <valueString value="C:\dev\fhir\ImmunizationFHIRDSMaster\framework"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\Users\richard.ettema\Documents\GitHub\ImmunizationFHIRDS\source\pages"/>
+    <valueString value="C:\dev\fhir\ImmunizationFHIRDSMaster\source\pages"/>
   </extension>
   <url value="http://hl7.org/fhir/uv/immds/ImplementationGuide/ig"/>
   <version value="0.2.0"/>
   <name value="ImmDSForecast"/>
   <title value="Immunization Decision Support Forecast"/>
   <status value="active"/>
-  <date value="2019-07-15T00:00:00-04:00"/>
+  <date value="2019-07-15T00:00:00-06:00"/>
   <publisher value="HL7 International - Public Health Work Group"/>
   <contact>
     <telecom>
