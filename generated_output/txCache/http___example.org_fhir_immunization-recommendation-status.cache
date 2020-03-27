@@ -30,3 +30,13 @@ v: {
   "error" : "The code system \"http://example.org/fhir/immunization-recommendation-status\" is not known (encountered paired with code = \"duelater\"); The code provided (http://example.org/fhir/immunization-recommendation-status#duelater) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://example.org/fhir/immunization-recommendation-status",
+  "code" : "duelater"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://example.org/fhir/immunization-recommendation-status\" is not known (encountered paired with code = \"duelater\"); The code provided (http://example.org/fhir/immunization-recommendation-status#duelater) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
