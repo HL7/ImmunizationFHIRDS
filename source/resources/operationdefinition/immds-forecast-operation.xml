@@ -88,7 +88,7 @@
 					<td>OUT</td>
 					<td>recommendation</td>
 					<td>1..1</td>
-					<td><a href="http://hl7.org/fhir/R4/immunization.html">ImmunizationRecommendation</a></td>
+					<td><a href="http://hl7.org/fhir/R4/immunizationRecommendation.html">ImmunizationRecommendation</a></td>
 					<td/>
 					<td>
 						<div>

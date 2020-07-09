@@ -21,10 +21,10 @@ The conformance verbs used are defined in [FHIR Conformance Rules].
 
 ## Background
 
-Clinical Decision Support for Immunizations is increasingly being used in health information systems to indicate which vaccinations a patient is due for next. Many of these expert systems are built as stand-alone systems that respond to web service requests. While these independent systems have similar requirements and outputs they use different web service standards. This project aims to create a common FHIR implementation guide that these expert systems may use to provide a common consistent interface. This common interface will be used for two main purposes:
+Clinical Decision Support for Immunizations is increasingly being used in health information systems to indicate which vaccinations a patient is due for next. Many of these expert systems are built as stand-alone systems that respond to web service requests. While these independent systems have similar requirements and outputs they use different web service standards. This project aims to create a FHIR implementation guide that these expert systems may use to provide a consistent and interchangeable interface. This will provide a standardized interface to so that:
 
-- Provide a common interface that health information systems may write to and gain access to their choice of CDS engines.
-- Provide a common interface that may be used for testing and verifying the output of CDS engines.
+- Health information systems may write to and gain access to their choice of CDS engines.
+- The output of these systems can be tested and verified consistently and correctly.
 
 <p>&nbsp;</p>
 

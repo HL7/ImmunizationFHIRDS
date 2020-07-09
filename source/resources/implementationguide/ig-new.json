@@ -3,26 +3,26 @@
   "id" : "ig",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Users\\richard.ettema\\Documents\\GitHub\\ImmunizationFHIRDS\\source\\resources"
+    "valueString" : "C:\\dev\\fhir\\ImmunizationFHIRDSMaster\\source\\resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Users\\richard.ettema\\Documents\\GitHub\\ImmunizationFHIRDS\\source\\examples"
+    "valueString" : "C:\\dev\\fhir\\ImmunizationFHIRDSMaster\\source\\examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Users\\richard.ettema\\Documents\\GitHub\\ImmunizationFHIRDS\\framework"
+    "valueString" : "C:\\dev\\fhir\\ImmunizationFHIRDSMaster\\framework"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Users\\richard.ettema\\Documents\\GitHub\\ImmunizationFHIRDS\\source\\pages"
+    "valueString" : "C:\\dev\\fhir\\ImmunizationFHIRDSMaster\\source\\pages"
   }],
   "url" : "http://hl7.org/fhir/uv/immds/ImplementationGuide/ig",
   "version" : "0.2.0",
   "name" : "ImmDSForecast",
   "title" : "Immunization Decision Support Forecast",
   "status" : "active",
-  "date" : "2019-07-15T00:00:00-04:00",
+  "date" : "2019-07-15T00:00:00-06:00",
   "publisher" : "HL7 International - Public Health Work Group",
   "contact" : [{
     "telecom" : [{
