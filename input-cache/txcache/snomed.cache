@@ -1,0 +1,1246 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "397428000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Diphtheria (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "27836007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pertussis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "76902006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Tetanus",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "721764008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Infection caused by Human poliovirus (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "14189004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Measles",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "36989005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mumps",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "36653000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Rubella",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "16814004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pneumococcal infectious disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "23511006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Meningococcal infectious disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "709410003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Haemophilus influenzae type b infection",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "56717001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Tuberculosis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "363354003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Malignant tumor of cervix",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "266113007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Genital warts",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "415822001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Viral gastroenteritis due to Rotavirus",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66071002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Type B viral hepatitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "40468003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Viral hepatitis, type A",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "7111000119109"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hepatitis E virus infection",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "719590007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Influenza caused by seasonal influenza virus (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "719865001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Influenza caused by pandemic influenza virus (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38907003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Varicella",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "4740000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Herpes zoster",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55735004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Respiratory syncytial virus infection",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "240613006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Typhus group rickettsial disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "4834000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Typhoid fever",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "85904008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Paratyphoid fever",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63650001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cholera",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "16541001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Yellow fever",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38362002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Dengue",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "61462000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Malaria",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "14168008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Rabies",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "186772009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "RMSF - Rocky Mountain spotted fever",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "712986001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Tickborne encephalitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "52947006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Japanese encephalitis virus disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "186788009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Q fever",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "409498004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Anthrax (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "58750007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Plague",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "19265001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Tularemia",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "23502006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lyme disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "75702008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Brucellosis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "80612004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Leishmaniasis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "186747009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Coronavirus infection",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "67924001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Smallpox",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "70090004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cowpox",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66071002"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "397428000",
+        "display" : "Diphtheria"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus"
+      },
+      {
+        "code" : "721764008",
+        "display" : "Infection caused by Human poliovirus"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella"
+      },
+      {
+        "code" : "16814004",
+        "display" : "Pneumococcal infectious disease"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis"
+      },
+      {
+        "code" : "363354003",
+        "display" : "Malignant tumour of cervix"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "415822001",
+        "display" : "Viral gastroenteritis due to Rotavirus"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Type B viral hepatitis"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A"
+      },
+      {
+        "code" : "7111000119109",
+        "display" : "Hepatitis E virus infection"
+      },
+      {
+        "code" : "719590007",
+        "display" : "Influenza caused by seasonal influenza virus"
+      },
+      {
+        "code" : "719865001",
+        "display" : "Influenza caused by pandemic influenza virus"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella"
+      },
+      {
+        "code" : "4740000",
+        "display" : "Herpes zoster"
+      },
+      {
+        "code" : "55735004",
+        "display" : "Respiratory syncytial virus infection"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera"
+      },
+      {
+        "code" : "16541001",
+        "display" : "Yellow fever"
+      },
+      {
+        "code" : "38362002",
+        "display" : "Dengue"
+      },
+      {
+        "code" : "61462000",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies"
+      },
+      {
+        "code" : "186772009",
+        "display" : "RMSF - Rocky Mountain spotted fever"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Tickborne encephalitis"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague"
+      },
+      {
+        "code" : "19265001",
+        "display" : "Tularemia"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis"
+      },
+      {
+        "code" : "80612004",
+        "display" : "Leishmaniasis"
+      },
+      {
+        "code" : "186747009",
+        "display" : "Coronavirus infection"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox"
+      },
+      {
+        "code" : "70090004",
+        "display" : "Cowpox"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Type B viral hepatitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66071002",
+  "display" : "Hepatitis B"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "397428000",
+        "display" : "Diphtheria"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus"
+      },
+      {
+        "code" : "721764008",
+        "display" : "Infection caused by Human poliovirus"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella"
+      },
+      {
+        "code" : "16814004",
+        "display" : "Pneumococcal infectious disease"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis"
+      },
+      {
+        "code" : "363354003",
+        "display" : "Malignant tumour of cervix"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "415822001",
+        "display" : "Viral gastroenteritis due to Rotavirus"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Type B viral hepatitis"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A"
+      },
+      {
+        "code" : "7111000119109",
+        "display" : "Hepatitis E virus infection"
+      },
+      {
+        "code" : "719590007",
+        "display" : "Influenza caused by seasonal influenza virus"
+      },
+      {
+        "code" : "719865001",
+        "display" : "Influenza caused by pandemic influenza virus"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella"
+      },
+      {
+        "code" : "4740000",
+        "display" : "Herpes zoster"
+      },
+      {
+        "code" : "55735004",
+        "display" : "Respiratory syncytial virus infection"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera"
+      },
+      {
+        "code" : "16541001",
+        "display" : "Yellow fever"
+      },
+      {
+        "code" : "38362002",
+        "display" : "Dengue"
+      },
+      {
+        "code" : "61462000",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies"
+      },
+      {
+        "code" : "186772009",
+        "display" : "RMSF - Rocky Mountain spotted fever"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Tickborne encephalitis"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague"
+      },
+      {
+        "code" : "19265001",
+        "display" : "Tularemia"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis"
+      },
+      {
+        "code" : "80612004",
+        "display" : "Leishmaniasis"
+      },
+      {
+        "code" : "186747009",
+        "display" : "Coronavirus infection"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox"
+      },
+      {
+        "code" : "70090004",
+        "display" : "Cowpox"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Type B viral hepatitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66071002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Type B viral hepatitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66071002",
+  "display" : "Hepatitis B"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Type B viral hepatitis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "397428000",
+        "display" : "Diphtheria"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus"
+      },
+      {
+        "code" : "721764008",
+        "display" : "Infection caused by Human poliovirus"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella"
+      },
+      {
+        "code" : "16814004",
+        "display" : "Pneumococcal infectious disease"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis"
+      },
+      {
+        "code" : "363354003",
+        "display" : "Malignant tumour of cervix"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "415822001",
+        "display" : "Viral gastroenteritis due to Rotavirus"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Type B viral hepatitis"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A"
+      },
+      {
+        "code" : "7111000119109",
+        "display" : "Hepatitis E virus infection"
+      },
+      {
+        "code" : "719590007",
+        "display" : "Influenza caused by seasonal influenza virus"
+      },
+      {
+        "code" : "719865001",
+        "display" : "Influenza caused by pandemic influenza virus"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella"
+      },
+      {
+        "code" : "4740000",
+        "display" : "Herpes zoster"
+      },
+      {
+        "code" : "55735004",
+        "display" : "Respiratory syncytial virus infection"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera"
+      },
+      {
+        "code" : "16541001",
+        "display" : "Yellow fever"
+      },
+      {
+        "code" : "38362002",
+        "display" : "Dengue"
+      },
+      {
+        "code" : "61462000",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies"
+      },
+      {
+        "code" : "186772009",
+        "display" : "RMSF - Rocky Mountain spotted fever"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Tickborne encephalitis"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague"
+      },
+      {
+        "code" : "19265001",
+        "display" : "Tularemia"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis"
+      },
+      {
+        "code" : "80612004",
+        "display" : "Leishmaniasis"
+      },
+      {
+        "code" : "186747009",
+        "display" : "Coronavirus infection"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox"
+      },
+      {
+        "code" : "70090004",
+        "display" : "Cowpox"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6f1ac617-bb9d-48a6-9de8-002b9aa8fe7b",
+    "timestamp" : "2020-07-09T16:13:55.484Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "397428000",
+      "display" : "Diphtheria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27836007",
+      "display" : "Pertussis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76902006",
+      "display" : "Tetanus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "721764008",
+      "display" : "Infection caused by Human poliovirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14189004",
+      "display" : "Measles"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36989005",
+      "display" : "Mumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36653000",
+      "display" : "Rubella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16814004",
+      "display" : "Pneumococcal infectious disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23511006",
+      "display" : "Meningococcal infectious disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709410003",
+      "display" : "Haemophilus influenzae type b infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56717001",
+      "display" : "Tuberculosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363354003",
+      "display" : "Malignant tumour of cervix"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266113007",
+      "display" : "Genital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "415822001",
+      "display" : "Viral gastroenteritis due to Rotavirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66071002",
+      "display" : "Type B viral hepatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40468003",
+      "display" : "Viral hepatitis, type A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7111000119109",
+      "display" : "Hepatitis E virus infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "719590007",
+      "display" : "Influenza caused by seasonal influenza virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "719865001",
+      "display" : "Influenza caused by pandemic influenza virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38907003",
+      "display" : "Varicella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4740000",
+      "display" : "Herpes zoster"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "55735004",
+      "display" : "Respiratory syncytial virus infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240613006",
+      "display" : "Typhus group rickettsial disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4834000",
+      "display" : "Typhoid fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85904008",
+      "display" : "Paratyphoid fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "63650001",
+      "display" : "Cholera"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16541001",
+      "display" : "Yellow fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38362002",
+      "display" : "Dengue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61462000",
+      "display" : "Malaria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14168008",
+      "display" : "Rabies"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "186772009",
+      "display" : "RMSF - Rocky Mountain spotted fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "712986001",
+      "display" : "Tickborne encephalitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52947006",
+      "display" : "Japanese encephalitis virus disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "186788009",
+      "display" : "Q fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409498004",
+      "display" : "Anthrax"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "58750007",
+      "display" : "Plague"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19265001",
+      "display" : "Tularemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23502006",
+      "display" : "Lyme disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75702008",
+      "display" : "Brucellosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80612004",
+      "display" : "Leishmaniasis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "186747009",
+      "display" : "Coronavirus infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67924001",
+      "display" : "Smallpox"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70090004",
+      "display" : "Cowpox"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
