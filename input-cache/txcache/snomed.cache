@@ -1012,22 +1012,23 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6f1ac617-bb9d-48a6-9de8-002b9aa8fe7b",
-    "timestamp" : "2020-07-09T16:13:55.484Z",
+    "identifier" : "urn:uuid:96a48f08-d93c-42e3-9116-c0363d39427d",
+    "timestamp" : "2021-06-24T12:23:15.574Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "397428000",
-      "display" : "Diphtheria"
+      "display" : "Diphtheria (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1042,7 +1043,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "721764008",
-      "display" : "Infection caused by Human poliovirus"
+      "display" : "Infection caused by Human poliovirus (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1082,7 +1083,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "363354003",
-      "display" : "Malignant tumour of cervix"
+      "display" : "Malignant tumor of cervix"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1112,12 +1113,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "719590007",
-      "display" : "Influenza caused by seasonal influenza virus"
+      "display" : "Influenza caused by seasonal influenza virus (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "719865001",
-      "display" : "Influenza caused by pandemic influenza virus"
+      "display" : "Influenza caused by pandemic influenza virus (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1197,7 +1198,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "409498004",
-      "display" : "Anthrax"
+      "display" : "Anthrax (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
