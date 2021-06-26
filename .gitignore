@@ -4,9 +4,7 @@ Thumbs.db
 /output
 /template
 /temp
-/input
-/ig.ini
 /package.json
-/package-list.json
 /build*
 SUSHI-GENERATED-FILES.md
+/fsh-generated
