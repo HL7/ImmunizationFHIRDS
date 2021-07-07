@@ -1,0 +1,4 @@
+== Suppressed Messages ==
+
+# Format: https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
+

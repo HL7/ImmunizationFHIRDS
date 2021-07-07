@@ -8,3 +8,4 @@ Thumbs.db
 /build*
 SUSHI-GENERATED-FILES.md
 /fsh-generated
+/input-cache/publisher.jar
