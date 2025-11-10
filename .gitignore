@@ -1,11 +1,23 @@
+# output/generation folders
+/output
+/temp
+/input-cache
+/fsh-generated
+/template
+
+# Intentionally don't track the jira artifact references (as these resources should be in the core spec and don't want to duplicate in jira)
+# (different for each incubator IG too)
+FHIR-immunization-incubator.xml
+
+# OS files
 .DS_Store
 Thumbs.db
-/input-cache/org.hl7.fhir.publisher.jar
-/output
-/template
-/temp
-/package.json
-/build*
-SUSHI-GENERATED-FILES.md
-/fsh-generated
-/input-cache/publisher.jar
+
+# IG Publisher files we don't want in git
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh
+/_updatePublisher.bat
+/_updatePublisher.new.bat
+/_updatePublisher.sh

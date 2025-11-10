@@ -60,7 +60,7 @@ Usage:			#definition
 Description:	"The Immunization Decision Support Forecast Request operation to provide standardized request and response interfaces to Immunization Forecasters."
 * name = "ImmDSForecast"
 * title = "Immunization Decision Support Forecast"
-* status = #draft
+* status = #active
 * kind = #operation
 * code = #immds-forecast
 * system = true
@@ -148,6 +148,7 @@ Description:	"A set of vaccine preventable target diseases."
 * SCT#67924001  "Smallpox"
 * SCT#70090004  "Cowpox"
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
 
 
 CodeSystem:		ForecastStatus
@@ -161,6 +162,8 @@ Description:	"A set of forecast statuses."
 * #agedOut "Aged Out" "The patient is past the recommendated maximum age for vaccination"
 * #conditional "Conditional" "The patient may be recommended for vaccination depending on other attributes"
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
+* ^caseSensitive = true
 
 
 ValueSet:		ForecastStatus
@@ -168,6 +171,7 @@ Title:			"Forecast Status"
 Description:	"A set of forecast statuses."
 * codes from system ForecastStatus
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
 
 
 CodeSystem:		ForecastReason
@@ -179,6 +183,8 @@ Description:	"A set of reasons for the forecast status."
 * #seasonalPast "Seasonal End Date Passed" "The recommended end date for the seasonal vaccine has passed"
 * #seasonalComplete "Complete for the Season" "The patient is complete for the season"
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
+* ^caseSensitive = true
 
 
 ValueSet:		StatusReason
@@ -186,6 +192,7 @@ Title:			"Evaluation Status Reason"
 Description:	"A set of reasons for the evaluation status."
 * codes from system StatusReason
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
 
 
 
@@ -203,6 +210,8 @@ Description:	"A set of reasons for the evaluation status."
 * #storage "Adverse Storage Conditions" "Vaccine Dose Administered experienced adverse storage conditions (e.g. cold chain break)"
 * #notevaluated "Not Evaluated" "Vaccine Dose Administered was not evaluated"
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
+* ^caseSensitive = true
 
 
 ValueSet:		ForecastReason
@@ -210,3 +219,4 @@ Title:			"Forecast Reason"
 Description:	"A set of reasons for the forecast status."
 * codes from system ForecastReason
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
+* ^experimental = false
