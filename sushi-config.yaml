@@ -36,6 +36,14 @@ jurisdiction: urn:iso:std:iso:3166#US
 copyrightYear: 2020+
 releaseLabel: CI Build
 
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 3
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: pher
+
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
@@ -59,3 +67,5 @@ pages:
     title: Use Cases
   Download.md:
     title: Download
+  changes.md:
+    title: Change Log
