@@ -13,5 +13,9 @@ This Implementation Guide was made possible by the thoughtful contributions of t
 * Heather Patrick (CDC)
 * Richard Ettema (Aegis Inc)
 
+# Dependencies
+{% lang-fragment dependency-table-nontech.xhtml %}
 
+# IP Statements
+{% lang-fragment ip-statements.xhtml %}
 

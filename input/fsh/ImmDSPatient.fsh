@@ -101,10 +101,14 @@ Description:	"The Immunization Decision Support Forecast Request operation to pr
 
 ValueSet:		TargetDisease
 Id:				targetDisease
-Title:			"Vaccine Target Disease"
+Title:			"Vaccine Target Disease Value Set"
 Description:	"A set of vaccine preventable target diseases."
-* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
-* SCT#397428000  "Diphtheria"
+* ^copyright = """This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement
+
+The SNOMED International IPS Terminology is distributed by International Health Terminology Standards Development Organisation, trading as SNOMED International, and is subject the terms of the Creative Commons Attribution 4.0 International Public License. For more information, see SNOMED IPS Terminology
+
+The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review usage terms or directly contact SNOMED International: info@snomed.org"""
+* SCT#397430003  "Diphtheria"
 * SCT#27836007  "Pertussis"
 * SCT#76902006  "Tetanus"
 * SCT#721764008  "Infection caused by Human poliovirus"
@@ -117,7 +121,7 @@ Description:	"A set of vaccine preventable target diseases."
 * SCT#56717001  "Tuberculosis"
 * SCT#363354003  "Malignant tumour of cervix"
 * SCT#266113007  "Genital warts"
-* SCT#415822001  "Viral gastroenteritis due to Rotavirus"
+* SCT#415822001  "Viral gastroenteritis caused by Rotavirus"
 * SCT#66071002  "Type B viral hepatitis"
 * SCT#40468003  "Viral hepatitis, type A"
 * SCT#7111000119109  "Hepatitis E virus infection"
@@ -167,7 +171,7 @@ Description:	"A set of forecast statuses."
 
 
 ValueSet:		ForecastStatus
-Title:			"Forecast Status"
+Title:			"Forecast Status Value Set"
 Description:	"A set of forecast statuses."
 * codes from system ForecastStatus
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
@@ -188,7 +192,7 @@ Description:	"A set of reasons for the forecast status."
 
 
 ValueSet:		StatusReason
-Title:			"Evaluation Status Reason"
+Title:			"Evaluation Status Reason Value Set"
 Description:	"A set of reasons for the evaluation status."
 * codes from system StatusReason
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
@@ -215,7 +219,7 @@ Description:	"A set of reasons for the evaluation status."
 
 
 ValueSet:		ForecastReason
-Title:			"Forecast Reason"
+Title:			"Forecast Reason Value Set"
 Description:	"A set of reasons for the forecast status."
 * codes from system ForecastReason
 * ^jurisdiction.coding = COUNTRY#US "United States of America"
