@@ -7,7 +7,7 @@ This Implementation Guide was made possible by the thoughtful contributions of t
 
 * Nathan Bunker (AIRA)
 * Brian Lee (STC)
-* Craig Newman (Altarum)
+* Craig Newman (JMC)
 * Daryl Chertcoff (HLN)
 * Eric Larson (AIRA)
 * Heather Patrick (CDC)
